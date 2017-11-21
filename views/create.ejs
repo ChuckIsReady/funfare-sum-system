@@ -1,0 +1,101 @@
+
+
+<div class="row">
+            <div class="create-title col-xl-12">Fare Create Form</div>
+            <form action="/funfare/create" method='post'  class="create-from  col-xl-12 row"  >
+                <div class="col-xs-12 col-md-6">
+                   <div class="form-group">
+                      <label for="region">Region</label>
+                     <select name="region" id="region" class=" region form-control" onchange="getCity(this.value)">
+                        <option value="East Asia">East Asia</option>
+                        <option value="South-east Asia">South-east Asia</option>
+                        <option value="Americas">Americas</option>
+                     </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="city">City</label>
+                     <select name="city" id="city" class=" region form-control">
+                        <option value="Osaka">Osaka</option>
+                        <option value="Seoul">Seoul</option>
+                     </select>
+                    </div>
+                    <div class="form-group">
+                    <label>Class:</label> <select name="class" id="class" class="class form-control">
+                         <option value="Economy">Economy class</option>
+                         <option value="Business">Business class</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                    <label>Price($):</label>
+                    <input type="text"  name="price" id="price" class="price form-control" placeholder="99999"></input>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    
+                    <div class="form-group">
+                    <label>Image:</label>
+                    <input type="text" name="imageUrl" class="imageUrl form-control" placeholder="/img/1.jpg">
+                    </div>
+                    <div class="form-group">
+                    <label>Data Valid Till:</label>
+                    <input type="text" name="dataValidTill"  class="deal form-control">
+                    </div>
+                    <div class="form-group">
+                    <label>Quota:</label>
+                    <input type="number"  name="overallQuota" class="quota form-control" placeholder="150">
+                    </div>
+
+                    <div class="form-group">
+                    <label>Dates:</label>
+                    <input type="text" name="travelDates"  class="dates form-control" id="dates">
+                    </div>
+
+                    <input name="travelDatesStart" type="hidden" id ="travelDatesStart">
+                    <input  name="travelDatesEnd" type="hidden" id ="travelDatesEnd">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <script src="/js/dependencies/dependjs/jquery.js"></script>
+         <script src="/js/popper.js"></script>
+        <script src="/js/dependencies/dependjs/bootstrap.min.js"></script>
+        <script src="/js/moment.min.js"></script>    
+        <script src="/js/bootstrap-datepicker.min.js"></script>
+            <script src="/js/daterangepicker.js"></script>
+            <script>
+            $(".deal").datepicker({
+            defaultViewDate: { year: 2017, month: 10, day: 6}
+        });
+            $(".dates").daterangepicker();
+    </script>
+    <script>
+
+        var getDates = function(){
+             $("#travelDatesStart").val( $.trim($(".dates")[0].value.split("-")[0]));
+             $("#travelDatesEnd").val( $.trim($(".dates")[0].value.split("-")[1]));
+        }
+        $(".dates").on("change",getDates);
+        var getCity = function(region){
+            var s1,s2;
+            switch(region){
+                case 'East Asia':
+                            s1='Osaka';
+                            s2 = 'Seoul';
+                            break;
+                case 'South-east Asia':
+                            s1='Cebu';
+                            s2 = 'Singapore';
+                            break;
+                case 'Americas':
+                            s1='Los Angeles';
+                            s2 = 'Boston';
+                            break;
+
+            }
+            var html = '<option value="'+s1+'">'+s1+'</option>'+'<option value="'+s2+'">'+s2+'</option>';
+            $("#city").html(html);
+        }
+                     $(document).ready(function(){
+                getDates();
+            });
+    </script>

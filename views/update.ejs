@@ -1,0 +1,101 @@
+<div class="row">
+            <div class="create-title col-xl-12">Fare Create Form</div>
+            <form action="/funfare/update/<%=funfare.id%>" method='post'  class="create-from  col-xl-12 row"  >
+                <div class="col-xs-12 col-md-6">
+                    <div class="form-group">
+                    <label>Region:</label>
+                    <input type="hidden" name="regionValue" id="regionValue" value="<%=funfare.region%>" >
+                    <select name="region" id="region" class="region form-control"  onchange="getCity(this.value)" >
+                        <option value="East Asia">East Asia</option>
+                        <option value="South-east Asia">South-east Asia</option>
+                        <option value="Americas">Americas</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                    <label>City:</label>
+                    <select name="" id="city" name="city" class="city form-control"  value="<%=funfare.city%>">
+                    </select>
+                    </div>
+                    <div class="form-group">
+                    <label>Class:</label> <select name="class" id="class" class="class form-control" value="<%=funfare.class%> class"> 
+                         <option value="Economy">Economy class</option>
+                         <option value="Business">Business class</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                    <label>Price($):</label>
+                    <input type="text"  name="price" id="price" class="price form-control" value="<%=funfare.price%>"></input>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    
+                    <div class="form-group">
+                    <label>Image:</label>
+                    <input   name="" type="text" class="imageUrl form-control"  value="<%=funfare.imageUrl%>">
+                    </div>
+                    <div class="form-group">
+                    <label>Deal Valid Till:</label>
+                    <input   name="dataValidTill" type="text" class="deal form-control" value="<%=new Date(funfare.dataValidTill.split("T")[0]).Format("MM/dd/yyyy")%>">
+                    </div>
+                    <div class="form-group">
+                    <label>Quota:</label>
+                    <input  name="overallQuota"  type="text" class="quota form-control" value="<%=funfare.overallQuota%>">
+                    </div>
+                    
+                    <div class="form-group">
+                    <label>Dates:</label>
+                    <input type="text" class="dates form-control" value='<%=new Date(funfare.travelDatesStart.split("T")[0]).Format("MM/dd/yyyy")%>
+					- <%=new Date(funfare.travelDatesEnd.split("T")[0]).Format("MM/dd/yyyy")%>'>
+                    <input name="travelDatesStart" type="hidden" id ="travelDatesStart">
+                    <input  name="travelDatesEnd" type="hidden" id ="travelDatesEnd">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+        </div>
+        <script src="/js/dependencies/dependjs/jquery.js"></script>
+         <script src="/js/popper.js"></script>
+        <script src="/js/dependencies/dependjs/bootstrap.min.js"></script>
+        <script src="/js/moment.min.js"></script>    
+        <script src="/js/bootstrap-datepicker.min.js"></script>
+            <script src="/js/daterangepicker.js"></script>
+            <script>
+
+            $(".deal").datepicker({
+            defaultViewDate: { year: 2017, month: 10, day: 6}
+        });
+            $(".dates").daterangepicker({
+				    "startDate": "<%=new Date(funfare.travelDatesStart.split("T")[0]).Format("MM/dd/yyyy")%>",
+				    "endDate": "<%=new Date(funfare.travelDatesEnd.split("T")[0]).Format("MM/dd/yyyy")%>"
+				});
+            var getDates = function(){ 
+                 $("#travelDatesStart").val( $.trim($(".dates")[0].value.split("-")[0]));
+                 $("#travelDatesEnd").val( $.trim($(".dates")[0].value.split("-")[1]));
+            }
+            $(".dates").on("change",getDates);
+            var getCity = function(region){
+            var s1,s2;
+            switch(region){
+                case 'East Asia':
+                            s1='Osaka';
+                            s2 = 'Seoul';
+                            break;
+                case 'South-east Asia':
+                            s1='Cebu';
+                            s2 = 'Singapore';
+                            break;
+                case 'Americas':
+                            s1='Los Angeles';
+                            s2 = 'Boston';
+                            break;
+
+            }
+            var html = '<option value="'+s1+'">'+s1+'</option>'+'<option value="'+s2+'">'+s2+'</option>';
+            $("#city").html(html);
+        }
+            $(document).ready(function(){
+            	$("#region").val($("#regionValue").val());
+            	getCity($("#regionValue").val());
+            	getDates();
+            });
+    </script>

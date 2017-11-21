@@ -1,0 +1,29 @@
+<!--index.ejs-->
+<% var current = req.query.page ||1%>
+
+<div class="row">
+	<% funfares.forEach( function(model) { %>
+	<div class="item item col-xs-12 col-sm-12 col-md-6 col-lg-4">
+				<div class="item-img"><img src="<%=model.imageUrl%>" class="img-fluid" alt=""></div>
+				<div class="item-title"><a href="/funfare/detail/<%=model.id%>"><%=model.city%></a></div>
+				<div class="item-describe"><%=model.class %> class, $<%=model.price%></div>
+				<div class="item-date ">Valid till:<%=new Date(model.dataValidTill.split("T")[0]).Format("MM/dd/yyyy")%>.</div>
+				<div class="item-state">Quota left:<%=model.overallQuota%></div>
+				<div class="item-priod">
+					<%=new Date(model.travelDatesStart.split("T")[0]).Format("MM/dd/yyyy")%>
+					- <%=new Date(model.travelDatesEnd.split("T")[0]).Format("MM/dd/yyyy")%>
+				</div>
+	</div>
+	<% }); %>
+	<div class="col-xs-offset-1 col-xs-10 col-sm-12 col-md-12 col-lg-12">
+		<nav aria-label="Page navigation example">
+		  <ul class="pagination">
+		    <li class="page-item"><a class="page-link" href="/?page=<%=Math.max(current-1, 1)%>">Previous</a></li>
+		    <%for(i=1;i<=count;i++){%>
+		         <li class="page-item"><a class="page-link" href="/?page=<%=i%>"><%=i%> </a></li>
+		    <%}%>
+		    <li class="page-item"><a class="page-link" href="/?page=<%=Math.min(current*1+1, count)%>">Next</a></li>
+		  </ul>
+		</nav>
+	</div>		
+</div>
