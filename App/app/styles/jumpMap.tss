@@ -1,0 +1,12 @@
+
+".container" : {
+  
+}
+"#mapView": { 
+    region: {
+        latitude: 22.27856, 
+        longitude: 114.165228, 
+        latitudeDelta: 0.05, 
+        longitudeDelta: 0.05
+    }
+}

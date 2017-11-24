@@ -1,0 +1,15 @@
+<Alloy>
+	<Collection src = "place"/>
+    <Window id='win'>
+        <TableView dataCollection="place" dataFilter="detailDisplay">
+				    <TableViewRow layout="vertical">
+				        <ImageView image="{imageUrl}" top="20" />
+				        <Label  text="{city}" bottom="20" /> 
+				        <Label id="Label2" text="{class} class, ${price}" bottom="20" /> 
+				        <Label id="Label2" text="Date: {travelDatesStart} - {travelDatesEnd}" bottom="20" /> 
+				        <Label id="Label3" text="Quota: {overallQuota} ValidTill:{dataValidTill}" bottom="20" /> 
+				        <Button title="Address for Visa Application" onClick="jumpToMap" top="50" /> 
+				    </TableViewRow>
+        </TableView>
+    </Window> 
+</Alloy>

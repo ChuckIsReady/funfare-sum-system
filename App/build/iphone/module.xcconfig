@@ -1,0 +1,6 @@
+// this is a generated file - DO NOT EDIT
+
+TI_MAP_TI_MODULE_VERSION=2.12.1
+TI_MAP_OTHER_LDFLAGS=$(inherited) -weak_framework MapKit
+TI_MODULE_VERSION=$(inherited) $(TI_MAP_TI_MODULE_VERSION) 
+OTHER_LDFLAGS=$(inherited) $(TI_MAP_OTHER_LDFLAGS) 

@@ -1,0 +1,10 @@
+<Alloy>
+	<Collection src="mapData" />
+	<Window title="Map" navBarHidden="false" id="win">
+	<Module dataCollection="mapData" dataFilter="mapfilter" dataTransform="getMapPoint"  id="mapView"    module="ti.map" method="createView" userLocation="true" >
+			<Annotation latitude="{latitude}" longitude="{longitude}"/>
+
+		</Module>
+
+	</Window>
+</Alloy>

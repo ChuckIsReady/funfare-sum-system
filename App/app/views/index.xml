@@ -1,0 +1,63 @@
+<Alloy>
+	<Collection src = "place"/>
+	<Collection src = "mapData"/>
+	<TabGroup>
+		<Tab title="Funfares" icon="home.png">
+			<Window title="Funfares">
+				<TableView dataCollection="place" dataTransform="transformFunction" onClick="detailClick"> 
+				    <TableViewRow layout="vertical" city="{city}">
+				        <ImageView image="{imageUrl}" top="20" />
+				        <Label  text="{city}" bottom="20" /> 
+				        <Label id="Label2" text="{class} class, ${price}" bottom="20" /> 
+				        <Label id="Label3" text="ValidTill:{dataValidTill}" bottom="20" /> 
+				    </TableViewRow>
+				</TableView>
+			</Window>
+		</Tab>
+
+		<Tab title="Price Select" icon="price select.png">
+			<Window title="Price Select">
+				<TableView onClick="tableClick"> 
+				    <TableViewSection headerTitle="Business Class">
+				        <TableViewRow title="Under $7000" CompareType="BU" hasChild="true" /> 
+				        <TableViewRow title="Above $7000" CompareType="BA" hasChild="true" /> 
+				    </TableViewSection>
+				    <TableViewSection headerTitle="Economy Class">
+				    	<TableViewRow title="Under $8000" CompareType="EU" hasChild="true" />
+				        <TableViewRow title="Above $8000" CompareType="EA" hasChild="true" />
+				    </TableViewSection> 
+				</TableView>
+			</Window>
+		</Tab>
+		<Tab title="Area Select" icon="place select.png">
+			<Window title="Area Select">
+					<TableView dataCollection="place" dataTransform="getGroup" onClick="detailClick">
+
+						<TableViewSection headerTitle="{headerTitle}" >
+							 <TableViewRow title="{city} Till: {dataValidTill}"  hasChild="true" city="{city}"/> 
+							</TableViewSection>
+					</TableView>
+
+			</Window>
+		</Tab>
+		<Tab title="Map" icon="map.png">
+			<Window title="Map" navBarHidden="true" >
+			<Module dataCollection="mapData" dataTransform="getMapPoint" id="mapView"    module="ti.map" method="createView" userLocation="true" onClick="mapClicked">
+					<Annotation latitude="{latitude}" longitude="{longitude}"/>
+
+				</Module>
+
+			</Window>
+		</Tab>
+
+		<Tab title="Login" icon="login.png">
+			<Window title="Login" layout="vertical">
+
+					<TextField id="textField" hintText="userid"/>
+					<TextField id="textField2" hintText="password"/>
+					<Button title="Login" onClick="loginFunction" top="50" /> 
+			</Window>
+		</Tab>
+
+	</TabGroup>
+</Alloy>

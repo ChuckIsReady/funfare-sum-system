@@ -1,0 +1,47 @@
+"Window": {
+	backgroundColor: "#fff"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
+"#Label2": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 16,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
+"#Label3": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#555",
+	font: {
+		fontSize: 12,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'left'
+} 
+"#mapView": { 
+    region: {
+        latitude: 22.27856, 
+        longitude: 114.165228, 
+        latitudeDelta: 0.05, 
+        longitudeDelta: 0.05
+    }
+}
+
+
+"Annotation[platform=ios]": {
+    rightButton: Titanium.UI.iOS.SystemButton.DISCLOSURE
+}

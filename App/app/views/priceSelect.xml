@@ -1,0 +1,8 @@
+<Alloy>
+    <Collection src="place" />
+    <Window id='win'>
+        <TableView dataCollection="place" dataFilter="Pricefilter" onClick="detailClick">
+            <TableViewRow title="{city} Till: {dataValidTill}" city="{city}"/> 
+        </TableView>
+    </Window> 
+</Alloy>

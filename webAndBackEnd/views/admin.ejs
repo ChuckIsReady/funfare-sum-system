@@ -1,0 +1,53 @@
+<div class="row">
+			<div class="admin col-xl-12">
+			<table class="table">
+				<tr>
+					<th>ID</th>
+					<th>Destination</th>
+					<th></th>
+					<th></th>
+					<th></th>
+				</tr>
+					<% funfares.forEach( function(model) { %>
+				<tr>
+					<th class="id"><%= model.id%></th>
+					<td class="destination"><%= model.city%></td>bought users
+					<td class="update"><a href="/funfare/update/<%= model.id%>" class="update-link">Update</a></td>
+					<td class="delete"><a  href="#" class="delete-link" onclick="deleteFunfare('<%= model.id %>')">Delete</a></td>
+					<td class="update"><a href="#" onclick="getBuyer('<%= model.id %>')" class="update-link">Bought Users</a></td>
+				</tr>
+					<% }); %>
+			</table>
+			</div>
+		</div>
+
+		<script>
+			function deleteFunfare(id) {
+			
+					var r = confirm("Confirm Delete?");
+					if (r == true) {
+					
+							var xhr = new XMLHttpRequest();
+							xhr.open("POST", "/funfare/delete/" + id, true);
+							xhr.onload = function(e) {
+								alert(this.responseText);
+								location.reload(true); 
+							};
+							xhr.send();
+							
+					} else {
+							alert("cancelled");
+					}
+					
+			} 
+			function   getBuyer(id) {
+
+							var xhr = new XMLHttpRequest();
+							xhr.open("POST", "/order/getbuyer/" + id, true);
+							xhr.onload = function(e) {
+								alert(this.responseText);
+							};
+							xhr.send();
+											
+			} 
+			</script>

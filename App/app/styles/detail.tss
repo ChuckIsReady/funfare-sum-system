@@ -1,0 +1,34 @@
+
+".container" : {
+  
+}
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
+"#Label2": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 16,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
+"#Label3": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#555",
+	font: {
+		fontSize: 12,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'left'
+} 

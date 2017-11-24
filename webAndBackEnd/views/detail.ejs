@@ -1,0 +1,31 @@
+<div class="row">
+			<div class="detail col-xl-12">
+				<div class="row">
+					<div class="detail-img col-xl-6"><img src="<%=funfare.imageUrl%>" class="img-fluid" alt=""></div>
+					<div class="detail-text col-xl-6">
+						<ul>
+							<li><span class="detail-text-title">Destination: </span><span class="detail-text-value destination"><%= funfare.city%></span></li>
+							<li><span class="detail-text-title">Region: </span><span class="detail-text-value destination"><%= funfare.region%></span></li>
+							<li><span class="detail-text-title">Class: </span><span class="detail-text-value class"><%= funfare.class %> class</span></li>
+							<li><span class="detail-text-title">Price: </span><span class="detail-text-value price"><%= funfare.price %></span></li>
+							<li><span class="detail-text-title">Quota Left: </span><span class="detail-text-value quota"><%= funfare.overallQuota %></span></li>
+							<li><span class="detail-text-title">Valid Till: </span><span class="detail-text-value valid"><%=new Date(funfare.dataValidTill.split("T")[0]).Format("MM/dd/yyyy")%></span></li>
+							<li><span class="detail-text-title">Dates: </span><span class="detail-text-value dates"><%=new Date(funfare.travelDatesStart.split("T")[0]).Format("MM/dd/yyyy")%>
+					- <%=new Date(funfare.travelDatesEnd.split("T")[0]).Format("MM/dd/yyyy")%></span></li>
+						<%if (username!='admin'&&username!=null){%>
+						<form action="/order/create" method="POST">
+						<input name="id" type="hidden" value="<%= funfare.id%>">
+						<input name="city" type="hidden" value="<%= funfare.city %>">
+						<input name="class" type="hidden" value="<%= funfare.class %>">
+						<input name="travelDates" type="hidden" value="<%=new Date(funfare.travelDatesStart.split("T")[0]).Format("MM/dd/yyyy")%> - <%=new Date(funfare.travelDatesEnd.split("T")[0]).Format("MM/dd/yyyy")%>">
+					<input name="username" type="hidden" value="<%= username %>">
+						<button type="submit" class="btn btn-primary">Buy this package</button>
+						</form>
+						<%}%>
+						</ul>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
