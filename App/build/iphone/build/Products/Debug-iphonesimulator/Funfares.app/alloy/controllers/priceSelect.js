@@ -30,17 +30,17 @@ function Controller() {
 
 		$.__views.win = Ti.UI.createWindow({ id: "win" });
 		$.__views.win && $.addTopLevelView($.__views.win);
-		$.__views.__alloyId72 = Ti.UI.createTableView({ id: "__alloyId72" });
-		$.__views.win.add($.__views.__alloyId72);
-		var __alloyId76 = Alloy.Collections['place'] || place;function __alloyId77(e) {
+		$.__views.__alloyId73 = Ti.UI.createTableView({ id: "__alloyId73" });
+		$.__views.win.add($.__views.__alloyId73);
+		var __alloyId77 = Alloy.Collections['place'] || place;function __alloyId78(e) {
 				if (e && e.fromAdapter) {
 						return;
-				}var opts = __alloyId77.opts || {};var models = Pricefilter(__alloyId76);var len = models.length;var rows = [];for (var i = 0; i < len; i++) {
-						var __alloyId73 = models[i];__alloyId73.__transform = _.isFunction(__alloyId73.transform) ? __alloyId73.transform() : __alloyId73.toJSON();var __alloyId75 = Ti.UI.createTableViewRow({ title: __alloyId73.__transform.city + ' Till: ' + __alloyId73.__transform.dataValidTill, city: __alloyId73.__transform.city });
-						rows.push(__alloyId75);
-				}$.__views.__alloyId72.setData(rows);
-		};__alloyId76.on('fetch destroy change add remove reset', __alloyId77);detailClick ? $.addListener($.__views.__alloyId72, 'click', detailClick) : __defers['$.__views.__alloyId72!click!detailClick'] = true;exports.destroy = function () {
-				__alloyId76 && __alloyId76.off('fetch destroy change add remove reset', __alloyId77);
+				}var opts = __alloyId78.opts || {};var models = Pricefilter(__alloyId77);var len = models.length;var rows = [];for (var i = 0; i < len; i++) {
+						var __alloyId74 = models[i];__alloyId74.__transform = _.isFunction(__alloyId74.transform) ? __alloyId74.transform() : __alloyId74.toJSON();var __alloyId76 = Ti.UI.createTableViewRow({ title: __alloyId74.__transform.city + ' Till: ' + __alloyId74.__transform.dataValidTill, city: __alloyId74.__transform.city });
+						rows.push(__alloyId76);
+				}$.__views.__alloyId73.setData(rows);
+		};__alloyId77.on('fetch destroy change add remove reset', __alloyId78);detailClick ? $.addListener($.__views.__alloyId73, 'click', detailClick) : __defers['$.__views.__alloyId73!click!detailClick'] = true;exports.destroy = function () {
+				__alloyId77 && __alloyId77.off('fetch destroy change add remove reset', __alloyId78);
 		};
 
 		_.extend($, $.__views);
@@ -80,7 +80,7 @@ function Controller() {
 				Alloy.Globals.tabGroup.activeTab.open(detailController.getView());
 		};
 
-		__defers['$.__views.__alloyId72!click!detailClick'] && $.addListener($.__views.__alloyId72, 'click', detailClick);
+		__defers['$.__views.__alloyId73!click!detailClick'] && $.addListener($.__views.__alloyId73, 'click', detailClick);
 
 		_.extend($, exports);
 }

@@ -13,12 +13,14 @@
     {
       var xhr = new XMLHttpRequest();
       xhr.onload = function(){
-        if (xhr.responseText == "login successfully.") {
+        var res = JSON.parse(this.responseText)
+        if (res.msg == "login successfully"){
+        Alloy.Globals.username = res.username;
           window.location = "/";
         }
-        else {
-          alert (xhr.responseText);
-        } 
+        else
+        alert("Login Error! please Check your username and password!");
+
       }
       xhr.open (oFormElement.method, oFormElement.action, true);
       xhr.send (new FormData (oFormElement));

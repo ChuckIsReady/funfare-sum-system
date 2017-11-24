@@ -15,6 +15,7 @@ module.exports = {
 
         User.findOne({username:req.body.username})
         .exec( function (err, user) {
+            var resjson ={};
 
             if (user == null) 
                 return res.send("No such user");
@@ -27,17 +28,21 @@ module.exports = {
         
                 //  if (user.password != req.body.password)
                 if (!bcrypt.compareSync(req.body.password, user.password))
-                        return res.send("Wrong Password");
+                {
+                    console.log(req.body.username+" try to login but failed.")
+                    resjson.msg = "Wrong Password";
+                    return res.json(resjson);
+                }
                 
-            console.log("The session id " + req.session.id + " is going to be destroyed.");    
+               
 
-            req.session.regenerate(function(err) {
-    
-                console.log("The new session id is " + req.session.id + ".");  
-    
+            req.session.regenerate(function(err) {   
                 req.session.username = req.body.username;
                 
-                return res.json(req.session);
+                resjson.msg =  "login successfully";
+                resjson.username = req.body.username;
+                console.log(resjson.username+" has logined.")
+                return res.json(resjson);
     
             });
             

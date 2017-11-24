@@ -49,7 +49,7 @@ function Controller() {
 
 	var args = $.args;
 
-	$.win.title = args.city + " on the Map";
+	$.win.title = "Consulate General Map";
 	$.win.addEventListener("close", function () {
 		$.destroy();
 	});

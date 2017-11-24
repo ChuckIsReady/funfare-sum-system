@@ -1,8 +1,10 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2013 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
+ * 
+ * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
 #import <UIKit/UIKit.h>
@@ -56,7 +58,7 @@
     NSInteger activeAlertControllerCount;
 }
 
-//Titanium Support
+//Funfares Support
 -(CGRect)resizeView;
 -(void)repositionSubviews;
 -(UIView *)topWindowProxyView;

@@ -1,13 +1,13 @@
 dependencies: \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/ThirdpartyNS.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/defines.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Funfares_Prefix.pch \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMNodeProxy.m \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMNodeProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiEvaluator.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/KrollContext.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiToJS.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/ThirdpartyNS.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/defines.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Funfares_Prefix.pch \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMNodeProxy.m \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMNodeProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiEvaluator.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/KrollContext.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiToJS.h \
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -15,13 +15,13 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/KrollCallback.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/KrollObject.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiBindingRunLoop.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiBase.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiThreading.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiPublicAPI.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/GDataXMLNode.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/KrollCallback.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/KrollObject.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiBase.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiThreading.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiPublicAPI.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/GDataXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/libxml2/libxml/xmlexports.h \
@@ -45,26 +45,26 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/libxml2/libxml/SAX2.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/libxml2/libxml/xpath.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/libxml2/libxml/xpathInternals.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMDocumentProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMElementProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMTextNodeProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TIDOMCharacterDataProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMNamedNodeMapProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMNodeListProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMAttrProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMCDATANodeProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMCommentProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TIDOMDocumentTypeProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMDocFragProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMPIProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMEntityProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMEntityRefProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMNotationProxy.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiUtils.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDimension.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiColor.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/WebFont.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiFile.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiBuffer.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiBlob.h \
-  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/TiDOMValidator.h
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMDocumentProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMElementProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMTextNodeProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TIDOMCharacterDataProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMNamedNodeMapProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMNodeListProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMAttrProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMCDATANodeProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMCommentProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TIDOMDocumentTypeProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMDocFragProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMPIProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMEntityProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMEntityRefProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMNotationProxy.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiUtils.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDimension.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiColor.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/WebFont.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiFile.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiBuffer.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiBlob.h \
+  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/TiDOMValidator.h

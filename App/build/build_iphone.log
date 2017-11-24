@@ -1,5 +1,5 @@
 
-11/24/2017, 2:12:15 PM
+11/24/2017, 3:47:47 PM
 
 Operating System
   Name                        = Mac OS X
@@ -31,8 +31,8 @@ Command
 [TRACE]  [ioslib]   UDID    = 51FDA3EF-2969-4394-BC58-7CDA4F8585CD
 [TRACE]  [ioslib]   iOS     = 10.3.1
 [TRACE]  [ioslib] Autoselected Xcode: 8.3.3
-[DEBUG]  Detecting modules in /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/modules
-[DEBUG]  Detected iphone module: ti.map 2.12.1 @ /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/modules/iphone/ti.map/2.12.1
+[DEBUG]  Detecting modules in /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/modules
+[DEBUG]  Detected iphone module: ti.map 2.12.1 @ /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/modules/iphone/ti.map/2.12.1
 [DEBUG]  Detecting modules in /Users/xdeveloper/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: facebook 5.0.0 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/android/facebook/5.0.0
 [DEBUG]  Detected android module: facebook 6.2.0 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/android/facebook/6.2.0
@@ -56,9 +56,9 @@ Command
 [DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
 [DEBUG]  Detected iphone module: ti.touchid 2.1.2 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/iphone/ti.touchid/2.1.2
 [DEBUG]  Looking for Titanium module id=ti.map version=2.12.1 platform=iphone deploy-type=development
-[INFO]   Found Titanium module id=ti.map version=2.12.1 platform=iphone deploy-type=development path=/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/modules/iphone/ti.map/2.12.1
-[DEBUG]  Detecting plugins in /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/plugins
-[DEBUG]  Detected plugin: ti.alloy @ /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/plugins/ti.alloy
+[INFO]   Found Titanium module id=ti.map version=2.12.1 platform=iphone deploy-type=development path=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/modules/iphone/ti.map/2.12.1
+[DEBUG]  Detecting plugins in /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/plugins/ti.alloy
 [DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
 [INFO]   Found Titanium plugin id=ti.alloy version=1.0 
 [TRACE]  Snapshotting build directory
@@ -84,8 +84,8 @@ Command
 [INFO]   Profiler disabled
 [INFO]   Set to copy files instead of symlinking
 [INFO]   Initializing the build directory
-[INFO]   Found Alloy app in /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/app
-[INFO]   Executing Alloy compile: /usr/local/bin/node /usr/local/bin/alloy compile /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/app --config platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator
+[INFO]   Found Alloy app in /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /usr/local/bin/alloy compile /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/app --config platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator
 [DEBUG]         .__  .__                
 [DEBUG]  _____  |  | |  |   ____ ___.__.
 [DEBUG]  \__  \ |  | |  |  /  _ <   |  |
@@ -102,8 +102,8 @@ Command
 [DEBUG]  devicefamily = universal
 [DEBUG]  deploytype = development
 [DEBUG]  target = simulator
-[DEBUG]  project path = /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady
-[DEBUG]  app path = /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/app
+[DEBUG]  project path = /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App
+[DEBUG]  app path = /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/app
 [DEBUG]  
 [DEBUG]  ----- CONFIG.JSON -----
 [DEBUG]  dependencies = {}
@@ -140,14 +140,14 @@ Command
 [TRACE]  SRC_DIR=/usr/local/lib/node_modules/alloy/Alloy/common
 [TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
 [TRACE]  
-[TRACE]  SRC_DIR=/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/app/assets
+[TRACE]  SRC_DIR=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/app/assets
 [TRACE]  
-[TRACE]  SRC_DIR=/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/app/vendor
+[TRACE]  SRC_DIR=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/app/vendor
 [TRACE]  Copying SRC_DIR/alloy/sync/sqlrest.js --> Resources/iphone/alloy/sync/sqlrest.js
 [TRACE]  
-[DEBUG]  Resetting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/platform/ios
+[DEBUG]  Resetting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/platform/ios
 [DEBUG]  
-[DEBUG]  Resetting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/i18n
+[DEBUG]  Resetting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/i18n
 [DEBUG]  
 [INFO]   ----- MVC GENERATION -----
 [INFO]   [global style] loading from cache...
@@ -175,6 +175,13 @@ Command
 [INFO]     created:    "Resources/iphone/alloy/controllers/jumpMap.js"
 [DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/jumpMap.js.map"
 [INFO]     created:     "Resources/iphone/alloy/styles/jumpMap.js"
+[INFO]   [login.xml] view processing...
+[INFO]     style:      "login.tss"
+[INFO]     view:       "login.xml"
+[INFO]     controller: "login.js"
+[INFO]     created:    "Resources/iphone/alloy/controllers/login.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/login.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/login.js"
 [INFO]   [priceSelect.xml] view processing...
 [INFO]     style:      "priceSelect.tss"
 [INFO]     view:       "priceSelect.xml"
@@ -182,6 +189,13 @@ Command
 [INFO]     created:    "Resources/iphone/alloy/controllers/priceSelect.js"
 [DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/priceSelect.js.map"
 [INFO]     created:     "Resources/iphone/alloy/styles/priceSelect.js"
+[INFO]   [user.xml] view processing...
+[INFO]     style:      "user.tss"
+[INFO]     view:       "user.xml"
+[INFO]     controller: "user.js"
+[INFO]     created:    "Resources/iphone/alloy/controllers/user.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/user.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/user.js"
 [INFO]   
 [INFO]   [app.js] using cached app.js...
 [INFO]   
@@ -198,63 +212,63 @@ Command
 [TRACE]   
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [0.64178s] TOTAL
+[TRACE]  [0.68929s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 0.64178s
+[INFO]   Alloy compiled in 0.68929s
 [INFO]   Alloy compiler completed successfully
 [TRACE]  Starting third-party framework detection
-[TRACE]  Scanning /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/platform/ios for frameworks
-[TRACE]  Scanning /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/modules/iphone/ti.map/2.12.1/platform for frameworks
+[TRACE]  Scanning /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/platform/ios for frameworks
+[TRACE]  Scanning /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/modules/iphone/ti.map/2.12.1/platform for frameworks
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  Adding 1 native module library
 [TRACE]  No extensions to add
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Funfares.xcodeproj/project.pbxproj
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Funfares.xcodeproj/project.pbxproj
 [INFO]   Creating Entitlements.plist
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Funfares.entitlements
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Funfares.entitlements
 [INFO]   Creating Info.plist
 [DEBUG]  Checking for Splash Screen localization
 [INFO]   Disabling ATS
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Info.plist
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Info.plist
 [INFO]   Creating main.m
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/main.m
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/main.m
 [INFO]   Creating Xcode config files
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/project.xcconfig
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/module.xcconfig
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/module.xcconfig
 [INFO]   Copying Titanium libraries
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/lib/libTiCore.a
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/lib/libtiverify.a
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/lib/libti_ios_debugger.a
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/lib/libti_ios_profiler.a
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/lib/libti_ios_profiler.a
 [INFO]   Copying Titanium iOS files
 [TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Funfares_Prefix.pch
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Funfares.xcodeproj/xcshareddata/xcschemes/Funfares.xcscheme
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Funfares_Prefix.pch
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Funfares.xcodeproj/xcshareddata/xcschemes/Funfares.xcscheme
 [INFO]   Installing default LaunchScreen.storyboard
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/LaunchScreen.storyboard
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/LaunchScreen.storyboard
 [INFO]   Creating debugger and profiler plists
-[DEBUG]  Skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/debugger.plist
-[DEBUG]  Skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/profiler.plist
+[DEBUG]  Skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/debugger.plist
+[DEBUG]  Skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/profiler.plist
 [INFO]   Analyzing Resources directory
 [INFO]   Analyzing platform files
 [INFO]   Analyzing module files
 [INFO]   Analyzing localized launch images
 [INFO]   Analyzing CommonJS modules
 [INFO]   Creating asset catalog
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/Contents.json
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/Contents.json
 [INFO]   Creating app icon set
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
 [INFO]   Creating launch logo image set
 [INFO]   Missing 5 launch logos, generating missing launch logos from DefaultIcon.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchLogo.imageset/Contents.json
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchLogo.imageset/Contents.json
 [INFO]   Forcing rebuild: launch logos changed since last build
 [WARN]   If this app has been previously installed on this simulator, you may need restart it to see the latest launch logo
 [WARN]   iOS renders and caches the launch screen to a PNG image that seems to only be invalidated by restarting iOS
 [WARN]   The default icon "DefaultIcon-ios.png" contains an alpha channel and will be flattened against a white background
 [WARN]   You may create an image named "DefaultIcon-ios.png" that does not have an alpha channel in the root of your project
 [WARN]   It is highly recommended that the DefaultIcon.png be 1024x1024
-[DEBUG]  Stripping alpha channel: /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/DefaultIcon-ios.png => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/DefaultIcon.png
-[DEBUG]  Found /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/DefaultIcon.png (1024x1024)
+[DEBUG]  Stripping alpha channel: /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/DefaultIcon-ios.png => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/DefaultIcon.png
+[DEBUG]  Found /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/DefaultIcon.png (1024x1024)
 [INFO]   Missing 16 app icons, generating missing icons
 [INFO]     appicon-Small.png - Used for iPad - size: 29x29
 [INFO]     appicon-Small@2x.png - Used for iPhone, iPad - size: 58x58
@@ -272,156 +286,161 @@ Command
 [INFO]     LaunchLogo@3x~iphone - Used for iphone - size: 621x621 - size: 621x621
 [INFO]     LaunchLogo~ipad - Used for ipad - size: 384x384 - size: 384x384
 [INFO]     LaunchLogo@2x~ipad - Used for ipad - size: 1024x1024 - size: 1024x1024
-[TRACE]  Resizing images: java -jar "/Users/xdeveloper/Library/Application Support/Titanium/mobilesdk/osx/6.2.3.v20170921145618/node_modules/node-appc/tools/resizer/resizer.jar" "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/DefaultIcon.png" "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png" 29 29 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png" 58 58 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png" 87 87 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png" 40 40 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png" 80 80 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png" 120 120 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png" 120 120 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png" 180 180 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png" 76 76 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png" 152 152 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-83.5@2x.png" 167 167 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~iphone.png" 320 320 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~iphone.png" 374 374 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@3x~iphone.png" 621 621 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~ipad.png" 384 384 "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~ipad.png" 1024 1024
+[TRACE]  Resizing images: java -jar "/Users/xdeveloper/Library/Application Support/Titanium/mobilesdk/osx/6.2.3.v20170921145618/node_modules/node-appc/tools/resizer/resizer.jar" "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/DefaultIcon.png" "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png" 29 29 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png" 58 58 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png" 87 87 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png" 40 40 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png" 80 80 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png" 120 120 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png" 120 120 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png" 180 180 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png" 76 76 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png" 152 152 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-83.5@2x.png" 167 167 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~iphone.png" 320 320 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~iphone.png" 374 374 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@3x~iphone.png" 621 621 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~ipad.png" 384 384 "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~ipad.png" 1024 1024
 [INFO]   Creating launch image set
 [DEBUG]  Unsupported launch image Resources/iphone/Default-Landscape-2436h@3x.png, skipping
 [DEBUG]  Unsupported launch image Resources/iphone/Default-Portrait-2436h@3x.png, skipping
 [DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
 [INFO]   App thinning disabled, skipping asset image sets
 [DEBUG]  Copying resources
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/KS_nav_ui.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/KS_nav_views.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/Visa.sqlite
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/funfares.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/home.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/1.jpg
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/2.jpg
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/3.jpg
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/4.jpg
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/5.jpg
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/6.jpg
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/airplane.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/infoday2017.sqlite
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/login.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/map.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/place select.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/price select.png
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/platform/ios/alloy_generated => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/alloy_generated
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/modules/ti.map/README
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/Visa.sqlite
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/funfares.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/home.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/1.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/2.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/3.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/4.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/5.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/6.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/airplane.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/infoday2017.sqlite
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/login.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/map.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/place select.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/price select.png
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/platform/ios/alloy_generated => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/alloy_generated
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/modules/ti.map/README
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/CFG.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/CFG.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/alloy/moment.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/moment.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/app.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/app.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/backbone.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/backbone.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/constants.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/constants.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/controllers/BaseController.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/BaseController.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/controllers/detail.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/detail.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/controllers/index.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/index.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/controllers/jumpMap.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/jumpMap.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/controllers/priceSelect.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/priceSelect.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/models/MapData.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/MapData.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/models/Place.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/Place.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/models/WebNews.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/WebNews.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/styles/detail.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/detail.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/styles/index.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/index.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/styles/jumpMap.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/jumpMap.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/styles/priceSelect.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/priceSelect.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/sync/localStorage.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/localStorage.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/sync/properties.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/properties.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/sync/sql.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/sql.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/sync/sqlrest.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/sqlrest.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/underscore.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/underscore.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy/widget.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/widget.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/Resources/iphone/alloy.js => /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/CFG.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/CFG.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/alloy/moment.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/moment.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/app.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/app.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/backbone.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/backbone.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/constants.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/constants.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/BaseController.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/BaseController.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/detail.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/detail.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/index.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/index.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/jumpMap.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/jumpMap.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/login.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/login.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/priceSelect.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/priceSelect.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/user.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/user.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/models/MapData.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/MapData.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/models/Place.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/Place.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/models/WebNews.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/WebNews.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/detail.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/detail.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/index.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/index.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/jumpMap.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/jumpMap.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/login.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/login.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/priceSelect.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/priceSelect.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/user.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/user.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/sync/localStorage.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/localStorage.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/sync/properties.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/properties.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/sync/sql.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/sql.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/sync/sqlrest.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/sqlrest.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/underscore.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/underscore.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/widget.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/widget.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy.js
 [INFO]   Writing app properties
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/_app_props_.json
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/_app_props_.json
 [DEBUG]  Using default application routing
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/ApplicationRouting.m
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/ApplicationRouting.m
 [INFO]   Writing i18n files
 [DEBUG]  Compiling localization files
 [DEBUG]  No i18n files to process
 [INFO]   Processing Titanium symbols
 [DEBUG]  Processing Titanium namespace resources
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/modules/ui/images/badge.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/modules/ui/images/closeButton.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/modules/ui/images/photoDefault.png
-[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Classes/defines.h
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/defines.h
 [INFO]   Removing files
+[DEBUG]  Removing /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/DefaultIcon.png
 [DEBUG]  Removing empty directories
 [INFO]   Invoking xcodebuild
-[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Funfares -configuration Debug -scheme Funfares -derivedDataPath /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/DerivedData OBJROOT=/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products -destination "platform=iOS Simulator,id=51FDA3EF-2969-4394-BC58-7CDA4F8585CD,OS=10.3" ONLY_ACTIVE_ARCH=1
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Funfares -configuration Debug -scheme Funfares -derivedDataPath /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/DerivedData OBJROOT=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products -destination "platform=iOS Simulator,id=51FDA3EF-2969-4394-BC58-7CDA4F8585CD,OS=10.3" ONLY_ACTIVE_ARCH=1
 [TRACE]  User defaults from command line:
-[TRACE]      IDEDerivedDataPathOverride = /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/DerivedData
+[TRACE]      IDEDerivedDataPathOverride = /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/DerivedData
 [TRACE]  Build settings from command line:
-[TRACE]      OBJROOT = /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Intermediates
+[TRACE]      OBJROOT = /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates
 [TRACE]      ONLY_ACTIVE_ARCH = 1
-[TRACE]      SHARED_PRECOMPS_DIR = /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Intermediates/PrecompiledHeaders
-[TRACE]      SYMROOT = /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products
+[TRACE]      SHARED_PRECOMPS_DIR = /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates/PrecompiledHeaders
+[TRACE]      SYMROOT = /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products
 [TRACE]  
 [TRACE]  === BUILD TARGET Funfares OF PROJECT Funfares WITH CONFIGURATION Debug ===
 [TRACE]  Check dependencies
 [TRACE]  
 [TRACE]  CompileAssetCatalog build/Products/Debug-iphonesimulator/Funfares.app Assets.xcassets
-[TRACE]      cd /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone
+[TRACE]      cd /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone
 [TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-[TRACE]      /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Intermediates/Funfares.build/Debug-iphonesimulator/Funfares.build/assetcatalog_dependencies --output-partial-info-plist /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Intermediates/Funfares.build/Debug-iphonesimulator/Funfares.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --compress-pngs --enable-on-demand-resources YES --filter-for-device-model iPhone9,2 --filter-for-device-os-version 10.3.1 --sticker-pack-identifier-prefix .sticker-pack. --target-device iphone --target-device ipad --minimum-deployment-target 8.0 --platform iphonesimulator --product-type com.apple.product-type.application --compile /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets
+[TRACE]      /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates/Funfares.build/Debug-iphonesimulator/Funfares.build/assetcatalog_dependencies --output-partial-info-plist /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates/Funfares.build/Debug-iphonesimulator/Funfares.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --compress-pngs --enable-on-demand-resources YES --filter-for-device-model iPhone9,2 --filter-for-device-os-version 10.3.1 --sticker-pack-identifier-prefix .sticker-pack. --target-device iphone --target-device ipad --minimum-deployment-target 8.0 --platform iphonesimulator --product-type com.apple.product-type.application --compile /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets
 [TRACE]  /* com.apple.actool.document.notices */
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][landscape][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][667h][2x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][landscape][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][667h][2x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
 [TRACE]  /* com.apple.actool.compilation-results */
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon29x29@2x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon29x29@3x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon40x40@2x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon40x40@3x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon60x60@2x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon60x60@3x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon29x29~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon29x29@2x~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon40x40~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon40x40@2x~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon76x76~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon76x76@2x~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon83.5x83.5@2x~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-800-Portrait-736h@3x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-800-Landscape-736h@3x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-800-667h@2x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700@2x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700-568h@2x.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700-Portrait~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700-Landscape~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700-Portrait@2x~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700-Landscape@2x~ipad.png
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/Assets.car
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Intermediates/Funfares.build/Debug-iphonesimulator/Funfares.build/assetcatalog_generated_info.plist
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon29x29@2x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon29x29@3x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon40x40@2x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon40x40@3x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon60x60@2x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon60x60@3x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon29x29~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon29x29@2x~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon40x40~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon40x40@2x~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon76x76~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon76x76@2x~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/AppIcon83.5x83.5@2x~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-800-Portrait-736h@3x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-800-Landscape-736h@3x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-800-667h@2x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700@2x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700-568h@2x.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700-Portrait~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700-Landscape~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700-Portrait@2x~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/LaunchImage-700-Landscape@2x~ipad.png
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/Assets.car
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates/Funfares.build/Debug-iphonesimulator/Funfares.build/assetcatalog_generated_info.plist
 [TRACE]  
 [TRACE]  ProcessInfoPlistFile build/Products/Debug-iphonesimulator/Funfares.app/Info.plist Info.plist
-[TRACE]      cd /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone
+[TRACE]      cd /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone
 [TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-[TRACE]      builtin-infoPlistUtility /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/Info.plist -genpkginfo /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Intermediates/Funfares.build/Debug-iphonesimulator/Funfares.build/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Intermediates/Funfares.build/Debug-iphonesimulator/Funfares.build/assetcatalog_generated_info.plist -o /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/Info.plist
+[TRACE]      builtin-infoPlistUtility /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Info.plist -genpkginfo /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates/Funfares.build/Debug-iphonesimulator/Funfares.build/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates/Funfares.build/Debug-iphonesimulator/Funfares.build/assetcatalog_generated_info.plist -o /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/Info.plist
 [TRACE]  
 [TRACE]  GenerateDSYMFile build/Products/Debug-iphonesimulator/Funfares.app.dSYM build/Products/Debug-iphonesimulator/Funfares.app/Funfares
-[TRACE]      cd /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone
+[TRACE]      cd /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone
 [TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/Funfares -o /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app.dSYM
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/Funfares -o /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app.dSYM
 [TRACE]  
 [TRACE]  Touch build/Products/Debug-iphonesimulator/Funfares.app
-[TRACE]      cd /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone
+[TRACE]      cd /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone
 [TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-[TRACE]      /usr/bin/touch -c /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app
+[TRACE]      /usr/bin/touch -c /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app
 [TRACE]  
 [TRACE]  CodeSign build/Products/Debug-iphonesimulator/Funfares.app
-[TRACE]      cd /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone
+[TRACE]      cd /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone
 [TRACE]      export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
 [TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 [TRACE]      
 [TRACE]  Signing Identity:     "-"
-[TRACE]      /usr/bin/codesign --force --sign - --timestamp=none /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app
-[TRACE]  /Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app: replacing existing signature
+[TRACE]      /usr/bin/codesign --force --sign - --timestamp=none /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app
+[TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app: replacing existing signature
 [TRACE]  
 [TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 7s 690ms
+[INFO]   Finished building the application in 7s 490ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 7 Plus
 [TRACE]  [ioslib]   UDID    = 51FDA3EF-2969-4394-BC58-7CDA4F8585CD

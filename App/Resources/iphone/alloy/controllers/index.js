@@ -83,7 +83,9 @@ function Controller() {
       var __alloyId60 = models[i];__alloyId58.push(require('ti.map').createAnnotation(getMapPoint(__alloyId60)));
     }$.__views.mapView.annotations = __alloyId58;
   };__alloyId61.on('fetch destroy change add remove reset', __alloyId62);mapClicked ? $.addListener($.__views.mapView, 'click', mapClicked) : __defers['$.__views.mapView!click!mapClicked'] = true;$.__views.__alloyId56 = Ti.UI.createTab({ window: $.__views.__alloyId57, title: "Map", icon: "map.png", id: "__alloyId56" });
-  __alloyId21.push($.__views.__alloyId56);$.__views.index = Ti.UI.createTabGroup({ tabs: __alloyId21, id: "index" });
+  __alloyId21.push($.__views.__alloyId56);$.__views.userWin = Ti.UI.createWindow({ backgroundColor: "#fff", title: "Login", layout: "vertical", id: "userWin" });
+  $.__views.userTab = Ti.UI.createTab({ window: $.__views.userWin, title: "Login", icon: "login.png", id: "userTab" });
+  __alloyId21.push($.__views.userTab);loginSwitch ? $.addListener($.__views.userTab, 'click', loginSwitch) : __defers['$.__views.userTab!click!loginSwitch'] = true;$.__views.index = Ti.UI.createTabGroup({ tabs: __alloyId21, id: "index" });
   $.__views.index && $.addTopLevelView($.__views.index);
   exports.destroy = function () {
     __alloyId34 && __alloyId34.off('fetch destroy change add remove reset', __alloyId35);__alloyId54 && __alloyId54.off('fetch destroy change add remove reset', __alloyId55);__alloyId61 && __alloyId61.off('fetch destroy change add remove reset', __alloyId62);
@@ -92,6 +94,7 @@ function Controller() {
   _.extend($, $.__views);
 
   $.index.open();
+  Alloy.Globals.username = "";
   Alloy.Collections.place.fetch();
   Alloy.Collections.mapData.fetch();
   function btClick(e) {
@@ -149,22 +152,19 @@ function Controller() {
       $.index.activeTab.open(detailController.getView());
     }
   }
-
-  function loginFunction(e) {
-
-    var xhr = Ti.Network.createHTTPClient();
-    xhr.onload = function (e) {
-      alert(this.responseText);
-    };
-    xhr.open('POST', 'http://simplelogin.cs7184.comp.hkbu.edu.hk/User/signin');
-    xhr.send({
-      "userid": $.textField.value,
-      "password": $.textField2.value
-    });
+  function loginSwitch() {
+    if (Alloy.Globals.name == "") {
+      var Controller = Alloy.createController('login', {});
+    } else {
+      var Controller = Alloy.createController('user', {});
+    }
+    $.index.activeTab.open(Controller.getView());
   }
+  Alloy.Globals.host = "http://localhost:1337";
+
   Alloy.Globals.tabGroup = $.index;
 
-  __defers['$.__views.__alloyId24!click!detailClick'] && $.addListener($.__views.__alloyId24, 'click', detailClick);__defers['$.__views.__alloyId38!click!tableClick'] && $.addListener($.__views.__alloyId38, 'click', tableClick);__defers['$.__views.__alloyId48!click!detailClick'] && $.addListener($.__views.__alloyId48, 'click', detailClick);__defers['$.__views.mapView!click!mapClicked'] && $.addListener($.__views.mapView, 'click', mapClicked);
+  __defers['$.__views.__alloyId24!click!detailClick'] && $.addListener($.__views.__alloyId24, 'click', detailClick);__defers['$.__views.__alloyId38!click!tableClick'] && $.addListener($.__views.__alloyId38, 'click', tableClick);__defers['$.__views.__alloyId48!click!detailClick'] && $.addListener($.__views.__alloyId48, 'click', detailClick);__defers['$.__views.mapView!click!mapClicked'] && $.addListener($.__views.mapView, 'click', mapClicked);__defers['$.__views.userTab!click!loginSwitch'] && $.addListener($.__views.userTab, 'click', loginSwitch);
 
   _.extend($, exports);
 }

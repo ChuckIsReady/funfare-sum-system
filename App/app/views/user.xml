@@ -1,0 +1,5 @@
+<Alloy>
+	<Window title="User" layout="vertical" id="userWin" >
+				<Label  text="Welcome! {Alloy.Globals.username}" bottom="20" />	
+	</Window>
+</Alloy>

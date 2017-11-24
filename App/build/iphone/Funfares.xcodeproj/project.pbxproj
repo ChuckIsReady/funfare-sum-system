@@ -1034,7 +1034,7 @@
 		DB90749E1D84299500BB0FD5 /* TiUIiOSFeedbackGeneratorProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiUIiOSFeedbackGeneratorProxy.m; sourceTree = "<group>"; };
 		EF0ADCF9143F9ABF00977386 /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Additions.m"; path = "Classes/NSData+Additions.m"; sourceTree = "<group>"; };
 		EF0ADD19143FA0CD00977386 /* GeolocationModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeolocationModule.m; sourceTree = "<group>"; };
-		000000000000000000000001 /* libti.map.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libti.map.a; path = "/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/modules/iphone/ti.map/2.12.1/libti.map.a"; sourceTree = "<absolute>"; };
+		000000000000000000000001 /* libti.map.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libti.map.a; path = "/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/modules/iphone/ti.map/2.12.1/libti.map.a"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2963,7 +2963,7 @@
 					"\"$(SRCROOT)/lib\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
-					"\"/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/modules/iphone/ti.map/2.12.1\"",
+					"\"/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/modules/iphone/ti.map/2.12.1\"",
 				);
 				OTHER_CFLAGS = "-DDEBUG";
 				PRODUCT_NAME = "Funfares";
@@ -2999,7 +2999,7 @@
 					"\"$(SRCROOT)/lib\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
-					"\"/Users/xdeveloper/Documents/GitHub/funfares-mobile-app-ChuckIsReady/modules/iphone/ti.map/2.12.1\"",
+					"\"/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/modules/iphone/ti.map/2.12.1\"",
 				);
 				PRODUCT_NAME = "Funfares";
 				TARGETED_DEVICE_FAMILY = "1,2";

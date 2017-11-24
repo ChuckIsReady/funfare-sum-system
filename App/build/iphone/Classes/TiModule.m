@@ -1,8 +1,10 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
+ * 
+ * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #import <objc/runtime.h>
 
@@ -160,7 +162,7 @@
 		if (resultClass==nil)
 		{
 			DebugLog(@"[WARN] Attempted to load %@: Could not find class definition.",className);
-			@throw [NSException exceptionWithName:@"org.appcelerator.module"
+			@throw [NSException exceptionWithName:@"org.funfares.module"
 										   reason:[NSString stringWithFormat:@"invalid method (%@) passed to %@",name,[self class]]
 										 userInfo:nil];
 		}
@@ -238,7 +240,7 @@
 
 -(id)bindCommonJSModule:(NSString*)code
 {
-	NSString *js = [[NSString alloc] initWithFormat:TitaniumModuleRequireFormat,code];
+	NSString *js = [[NSString alloc] initWithFormat:Funfares$ModuleRequireFormat,code];
 
 	id result = [[self pageContext] evalJSAndWait:js];
 	[js release];

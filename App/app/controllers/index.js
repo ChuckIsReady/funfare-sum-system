@@ -1,4 +1,5 @@
 $.index.open();
+Alloy.Globals.username=""
 Alloy.Collections.place.fetch();
 Alloy.Collections.mapData.fetch();
 function btClick(e) { 
@@ -59,18 +60,17 @@ function mapClicked(e) {
         $.index.activeTab.open(detailController.getView());    
     }   
 }
-
-function loginFunction(e) {
-    
-    var xhr = Ti.Network.createHTTPClient();
-    xhr.onload = function(e) {
-        alert(this.responseText);
-    };
-    xhr.open('POST','http://simplelogin.cs7184.comp.hkbu.edu.hk/User/signin');
-    xhr.send({
-    "userid": $.textField.value,
-    "password": $.textField2.value
-});
-
+function loginSwitch(){
+    if(Alloy.Globals.name==""){
+        var Controller = Alloy.createController('login', {
+        });
+    }
+    else{
+        var Controller = Alloy.createController('user', {
+        });
+    }
+    $.index.activeTab.open(Controller.getView());  
 }
+Alloy.Globals.host = "http://localhost:1337";
+
 Alloy.Globals.tabGroup=$.index;

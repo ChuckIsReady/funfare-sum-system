@@ -1,8 +1,10 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
+ * 
+ * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #import "TiProxy.h"
 #import "TiAnimation.h"
@@ -42,7 +44,7 @@ void ModifyScrollViewForKeyboardHeightAndContentHeightWithResponderRect(UIScroll
 @class TiViewProxy;
 
 /**
- Base class for all Titanium views.
+ Base class for all Funfares views.
  @see TiViewProxy
  */
 #ifdef TI_USE_AUTOLAYOUT
@@ -270,7 +272,7 @@ void ModifyScrollViewForKeyboardHeightAndContentHeightWithResponderRect(UIScroll
 - (void)setAccessibilityHidden_:(id)accessibilityHidden;
 
 /**
- Whether or not a view not normally picked up by the Titanium view hierarchy (such as wrapped iOS UIViews) was touched.
+ Whether or not a view not normally picked up by the Funfares view hierarchy (such as wrapped iOS UIViews) was touched.
  @return _YES_ if the view contains specialized content (such as a system view) which should register as a touch for this view, _NO_ otherwise.
  */
 -(BOOL)touchedContentViewWithEvent:(UIEvent*)event;

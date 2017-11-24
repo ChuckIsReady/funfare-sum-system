@@ -1,8 +1,10 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
+ * 
+ * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #ifdef USE_TI_UIIPHONESYSTEMBUTTON
 
@@ -38,12 +40,12 @@ MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(DONE,UIBarButtonSystemItemDone,@"UI.iPhone.
 MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(FLEXIBLE_SPACE,UIBarButtonSystemItemFlexibleSpace,@"UI.iPhone.SystemButton.FLEXIBLE_SPACE",@"5.4.0",@"UI.iOS.SystemButton.FLEXIBLE_SPACE");
 MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(FIXED_SPACE,UIBarButtonSystemItemFixedSpace,@"UI.iPhone.SystemButton.FIXED_SPACE",@"5.4.0",@"UI.iOS.SystemButton.FIXED_SPACE");
 
-MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(ACTIVITY,UITitaniumNativeItemSpinner,@"UI.iPhone.SystemButtonStyle.ACTIVITY",@"5.4.0",@"UI.iOS.SystemButtonStyle.ACTIVITY");
-MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(SPINNER,UITitaniumNativeItemSpinner,@"UI.iPhone.SystemButtonStyle.SPINNER",@"5.4.0",@"UI.iOS.SystemButtonStyle.SPINNER");
-MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(INFO_LIGHT,UITitaniumNativeItemInfoLight,@"UI.iPhone.SystemButtonStyle.INFO_LIGHT",@"5.4.0",@"UI.iOS.SystemButtonStyle.INFO_LIGHT");
-MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(INFO_DARK,UITitaniumNativeItemInfoDark,@"UI.iPhone.SystemButtonStyle.INFO_DARK",@"5.4.0",@"UI.iOS.SystemButtonStyle.INFO_DARK");
-MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(DISCLOSURE,UITitaniumNativeItemDisclosure,@"UI.iPhone.SystemButtonStyle.DISCLOSURE",@"5.4.0",@"UI.iOS.SystemButtonStyle.DISCLOSURE");
-MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(CONTACT_ADD,UITitaniumNativeItemContactAdd,@"UI.iPhone.SystemButtonStyle.CONTACT_ADD",@"5.4.0",@"UI.iOS.SystemButtonStyle.CONTACT_ADD");
+MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(ACTIVITY,UIFunfaresNativeItemSpinner,@"UI.iPhone.SystemButtonStyle.ACTIVITY",@"5.4.0",@"UI.iOS.SystemButtonStyle.ACTIVITY");
+MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(SPINNER,UIFunfaresNativeItemSpinner,@"UI.iPhone.SystemButtonStyle.SPINNER",@"5.4.0",@"UI.iOS.SystemButtonStyle.SPINNER");
+MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(INFO_LIGHT,UIFunfaresNativeItemInfoLight,@"UI.iPhone.SystemButtonStyle.INFO_LIGHT",@"5.4.0",@"UI.iOS.SystemButtonStyle.INFO_LIGHT");
+MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(INFO_DARK,UIFunfaresNativeItemInfoDark,@"UI.iPhone.SystemButtonStyle.INFO_DARK",@"5.4.0",@"UI.iOS.SystemButtonStyle.INFO_DARK");
+MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(DISCLOSURE,UIFunfaresNativeItemDisclosure,@"UI.iPhone.SystemButtonStyle.DISCLOSURE",@"5.4.0",@"UI.iOS.SystemButtonStyle.DISCLOSURE");
+MAKE_SYSTEM_PROP_DEPRECATED_REPLACED(CONTACT_ADD,UIFunfaresNativeItemContactAdd,@"UI.iPhone.SystemButtonStyle.CONTACT_ADD",@"5.4.0",@"UI.iOS.SystemButtonStyle.CONTACT_ADD");
 
 
 @end

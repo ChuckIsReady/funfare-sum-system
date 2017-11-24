@@ -1,0 +1,206 @@
+{
+  "data": {
+    "funfare": [
+      {
+        "region": "East Asia",
+        "city": "Osaka",
+        "class": "Economy",
+        "price": "6400",
+        "imageUrl": "/img/1.jpg",
+        "dataValidTill": "2016-10-8T16:00:00.000Z",
+        "overallQuota": "100",
+        "travelDatesStart": "2016-11-1T16:00:00.000Z",
+        "travelDatesEnd": "2017-11-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-11-24T07:00:21.487Z",
+        "updatedAt": "2017-11-24T07:00:21.487Z",
+        "id": 7
+      },
+      {
+        "region": "East Asia",
+        "city": "Seoul",
+        "class": "Economy",
+        "price": "7500",
+        "imageUrl": "/img/2.jpg",
+        "dataValidTill": "2016-10-10T16:00:00.000Z",
+        "overallQuota": "150",
+        "travelDatesStart": "2017-3-1T16:00:00.000Z",
+        "travelDatesEnd": "2018-11-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-11-24T07:00:21.488Z",
+        "updatedAt": "2017-11-24T07:00:21.488Z",
+        "id": 8
+      },
+      {
+        "region": "South-east Asia",
+        "city": "Cebu",
+        "class": "Business",
+        "price": "9500",
+        "imageUrl": "/img/3.jpg",
+        "dataValidTill": "2016-9-10T16:00:00.000Z",
+        "overallQuota": "1250",
+        "travelDatesStart": "2017-10-1T16:00:00.000Z",
+        "travelDatesEnd": "2017-10-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-11-24T07:00:21.490Z",
+        "updatedAt": "2017-11-24T07:00:21.490Z",
+        "id": 9
+      },
+      {
+        "region": "South-east Asia",
+        "city": "Singapore",
+        "class": "Business",
+        "price": "3900",
+        "imageUrl": "/img/4.jpg",
+        "dataValidTill": "2016-8-10T16:00:00.000Z",
+        "overallQuota": "50",
+        "travelDatesStart": "2017-9-1T16:00:00.000Z",
+        "travelDatesEnd": "2017-9-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-11-24T07:00:21.491Z",
+        "updatedAt": "2017-11-24T07:00:21.491Z",
+        "id": 10
+      },
+      {
+        "region": "Americas",
+        "city": "Los Angeles",
+        "class": "Business",
+        "price": "9880",
+        "imageUrl": "/img/5.jpg",
+        "dataValidTill": "2016-7-10T16:00:00.000Z",
+        "overallQuota": "120",
+        "travelDatesStart": "2017-8-1T16:00:00.000Z",
+        "travelDatesEnd": "2017-8-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-11-24T07:00:21.492Z",
+        "updatedAt": "2017-11-24T07:00:21.492Z",
+        "id": 11
+      },
+      {
+        "region": "Americas",
+        "city": "Boston",
+        "class": "Economy",
+        "price": "9500",
+        "imageUrl": "/img/6.jpg",
+        "dataValidTill": "2016-5-10T16:00:00.000Z",
+        "overallQuota": "190",
+        "travelDatesStart": "2017-6-1T16:00:00.000Z",
+        "travelDatesEnd": "2017-6-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-11-24T07:00:21.493Z",
+        "updatedAt": "2017-11-24T07:00:21.493Z",
+        "id": 12
+      }
+    ],
+    "order": [],
+    "user": [
+      {
+        "username": "admin",
+        "password": "$2a$10$y0QM4cYeRD4duhgwTog/augrE0dWurd6.FwzcuvI6TpKCQVAxtr1W",
+        "id": 1,
+        "createdAt": "2017-11-24T07:00:21.493Z",
+        "updatedAt": "2017-11-24T07:00:21.503Z"
+      },
+      {
+        "username": "Chuck",
+        "password": "$2a$10$y0QM4cYeRD4duhgwTog/augrE0dWurd6.FwzcuvI6TpKCQVAxtr1W",
+        "id": 2,
+        "createdAt": "2017-11-24T07:00:21.494Z",
+        "updatedAt": "2017-11-24T07:00:21.505Z"
+      }
+    ],
+    "funfare_worksfor__user_supervises": []
+  },
+  "schema": {
+    "funfare": {
+      "age": {
+        "type": "integer",
+        "defaultsTo": 18
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "order": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "username": {
+        "type": "string",
+        "unique": true
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "admin",
+          "tester",
+          "visitor"
+        ]
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "funfare_worksfor__user_supervises": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "funfare_worksFor": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "funfare",
+        "on": "id",
+        "via": "user_supervises"
+      },
+      "user_supervises": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "funfare_worksFor"
+      }
+    }
+  },
+  "counters": {
+    "funfare": {
+      "id": 12
+    },
+    "order": {},
+    "user": {
+      "id": 2
+    },
+    "funfare_worksfor__user_supervises": {}
+  }
+}

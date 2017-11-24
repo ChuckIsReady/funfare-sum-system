@@ -1,8 +1,10 @@
 /**
- * Appcelerator APSHTTPClient Library
- * Copyright (c) 2014-2015 by Appcelerator, Inc. All Rights Reserved.
+ * Funfares APSHTTPClient Library
+ * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
+ * 
+ * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
 #import <Foundation/Foundation.h>
@@ -75,7 +77,7 @@ typedef NS_ENUM(NSInteger, APSRequestError) {
  */
 @property(nonatomic, strong, readwrite) NSArray                          *runModes;
 
-// Only used in Titanium ImageLoader
+// Only used in Funfares ImageLoader
 @property(nonatomic, strong, readwrite) NSDictionary                     *userInfo;
 
 -(void)send;

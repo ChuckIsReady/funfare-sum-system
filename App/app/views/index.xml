@@ -50,13 +50,12 @@
 			</Window>
 		</Tab>
 
-		<Tab title="Login" icon="login.png">
-			<Window title="Login" layout="vertical">
-
-					<TextField id="textField" hintText="userid"/>
-					<TextField id="textField2" hintText="password"/>
-					<Button title="Login" onClick="loginFunction" top="50" /> 
+		<Tab title="Login" icon="login.png"  id="userTab" onClick="loginSwitch"> 
+		
+			<Window title="Login" layout="vertical" id="userWin" >
+						
 			</Window>
+
 		</Tab>
 
 	</TabGroup>

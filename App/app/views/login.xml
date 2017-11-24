@@ -1,0 +1,8 @@
+<Alloy>
+	<Window title="Login" layout="vertical" id="userWin" >
+				<TextField id="textField" hintText="Enter your username"  borderStyle="Ti.UI.INPUT_BORDERSTYLE_BEZEL"/ >
+				<TextField  id="textField2" hintText="Enter your password" borderStyle="Ti.UI.INPUT_BORDERSTYLE_BEZEL"/>
+				<Button title="Login" onClick="loginFunction" /> 	
+				<!-- <Label  text="Welcome! {Alloy.Globals.username}" bottom="20" /> -->	
+	</Window>
+</Alloy>
