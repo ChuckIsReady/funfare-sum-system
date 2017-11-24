@@ -1,8 +1,8 @@
 <Alloy>
-	<Window title="Login" layout="vertical" id="userWin" >
-				<TextField id="textField" hintText="Enter your username"  borderStyle="Ti.UI.INPUT_BORDERSTYLE_BEZEL"/ >
-				<TextField  id="textField2" hintText="Enter your password" borderStyle="Ti.UI.INPUT_BORDERSTYLE_BEZEL"/>
-				<Button title="Login" onClick="loginFunction" /> 	
-				<!-- <Label  text="Welcome! {Alloy.Globals.username}" bottom="20" /> -->	
+	<Window title="Login" layout="vertical" id="loginWin" >
+				<TextField id="textField" top="80" height="50" width="300" hintText="Enter your username"  borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED"/ >
+				<TextField  id="textField2"  passwordMask="true" height="50" width="300" hintText="Enter your password" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED"/>
+				<Button title="Login" top="40" width="200" onClick="loginFunction" color="#fff" borderRadius="5" backgroundColor="#00c0ff"/> 	
+				
 	</Window>
 </Alloy>

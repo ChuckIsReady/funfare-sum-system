@@ -60,17 +60,32 @@ function mapClicked(e) {
         $.index.activeTab.open(detailController.getView());    
     }   
 }
-function loginSwitch(){
-    if(Alloy.Globals.name==""){
-        var Controller = Alloy.createController('login', {
-        });
-    }
-    else{
-        var Controller = Alloy.createController('user', {
-        });
-    }
-    $.index.activeTab.open(Controller.getView());  
+function loginClick(){
+    if(Alloy.Globals.username==""){
+                var Controller = Alloy.createController('login', {
+                });
+                $.index.activeTab.open(Controller.getView());  
+            }
+            else{
+                var xhr = Ti.Network.createHTTPClient();
+                xhr.onload = function(e) {
+                    var res = JSON.parse(this.responseText)
+                    if (res.msg == "Logout successfully"){
+                    Alloy.Globals.username = "";
+                    Alloy.Globals.userLabel.text = "Welcome! Please Login!";
+                    Alloy.Globals.loginRow.title = "Login";  
+                    }
+                    else
+                    alert("Logout Error! please contact admin!");
+                };
+                xhr.open('POST',Alloy.Globals.host+'/user/logout');
+                xhr.send();
+            }
+            
 }
+
 Alloy.Globals.host = "http://localhost:1337";
 
 Alloy.Globals.tabGroup=$.index;
+Alloy.Globals.userLabel = $.userLabel;
+Alloy.Globals.loginRow = $.loginRow;

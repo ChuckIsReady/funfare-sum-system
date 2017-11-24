@@ -26,15 +26,15 @@ function Controller() {
 	var exports = {};
 	var __defers = {};
 
-	$.__views.userWin = Ti.UI.createWindow({ title: "Login", layout: "vertical", id: "userWin" });
-	$.__views.userWin && $.addTopLevelView($.__views.userWin);
-	$.__views.textField = Ti.UI.createTextField({ id: "textField", hintText: "Enter your username", borderStyle: Ti.UI.INPUT_BORDERSTYLE_BEZEL });
-	$.__views.userWin.add($.__views.textField);
-	$.__views.textField2 = Ti.UI.createTextField({ id: "textField2", hintText: "Enter your password", borderStyle: Ti.UI.INPUT_BORDERSTYLE_BEZEL });
-	$.__views.userWin.add($.__views.textField2);
-	$.__views.__alloyId70 = Ti.UI.createButton({ title: "Login", id: "__alloyId70" });
-	$.__views.userWin.add($.__views.__alloyId70);
-	loginFunction ? $.addListener($.__views.__alloyId70, 'click', loginFunction) : __defers['$.__views.__alloyId70!click!loginFunction'] = true;exports.destroy = function () {};
+	$.__views.loginWin = Ti.UI.createWindow({ title: "Login", layout: "vertical", id: "loginWin" });
+	$.__views.loginWin && $.addTopLevelView($.__views.loginWin);
+	$.__views.textField = Ti.UI.createTextField({ id: "textField", top: 80, height: 50, width: 300, hintText: "Enter your username", borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED });
+	$.__views.loginWin.add($.__views.textField);
+	$.__views.textField2 = Ti.UI.createTextField({ id: "textField2", passwordMask: true, height: 50, width: 300, hintText: "Enter your password", borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED });
+	$.__views.loginWin.add($.__views.textField2);
+	$.__views.__alloyId76 = Ti.UI.createButton({ title: "Login", top: 40, width: 200, color: "#fff", borderRadius: 5, backgroundColor: "#00c0ff", id: "__alloyId76" });
+	$.__views.loginWin.add($.__views.__alloyId76);
+	loginFunction ? $.addListener($.__views.__alloyId76, 'click', loginFunction) : __defers['$.__views.__alloyId76!click!loginFunction'] = true;exports.destroy = function () {};
 
 	_.extend($, $.__views);
 
@@ -44,13 +44,12 @@ function Controller() {
 		var xhr = Ti.Network.createHTTPClient();
 		xhr.onload = function (e) {
 			var res = JSON.parse(this.responseText);
-			alert(res);
+
 			if (res.msg == "login successfully") {
 				Alloy.Globals.username = res.username;
-				$.userRow.hidden = false;
-				$.loginRow.hidden = true;
-				$.userTab.title = "User";
-				$.userWin.title = "User";
+				Alloy.Globals.userLabel.text = "Welcome, " + Alloy.Globals.username + "! ";
+				Alloy.Globals.loginRow.title = "Logout";
+				$.loginWin.close();
 			} else alert("Login Error! please Check your username and password!");
 		};
 		xhr.open('POST', Alloy.Globals.host + '/user/login');
@@ -60,7 +59,7 @@ function Controller() {
 		});
 	}
 
-	__defers['$.__views.__alloyId70!click!loginFunction'] && $.addListener($.__views.__alloyId70, 'click', loginFunction);
+	__defers['$.__views.__alloyId76!click!loginFunction'] && $.addListener($.__views.__alloyId76, 'click', loginFunction);
 
 	_.extend($, exports);
 }

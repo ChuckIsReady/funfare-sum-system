@@ -83,9 +83,19 @@ function Controller() {
       var __alloyId60 = models[i];__alloyId58.push(require('ti.map').createAnnotation(getMapPoint(__alloyId60)));
     }$.__views.mapView.annotations = __alloyId58;
   };__alloyId61.on('fetch destroy change add remove reset', __alloyId62);mapClicked ? $.addListener($.__views.mapView, 'click', mapClicked) : __defers['$.__views.mapView!click!mapClicked'] = true;$.__views.__alloyId56 = Ti.UI.createTab({ window: $.__views.__alloyId57, title: "Map", icon: "map.png", id: "__alloyId56" });
-  __alloyId21.push($.__views.__alloyId56);$.__views.userWin = Ti.UI.createWindow({ backgroundColor: "#fff", title: "Login", layout: "vertical", id: "userWin" });
-  $.__views.userTab = Ti.UI.createTab({ window: $.__views.userWin, title: "Login", icon: "login.png", id: "userTab" });
-  __alloyId21.push($.__views.userTab);loginSwitch ? $.addListener($.__views.userTab, 'click', loginSwitch) : __defers['$.__views.userTab!click!loginSwitch'] = true;$.__views.index = Ti.UI.createTabGroup({ tabs: __alloyId21, id: "index" });
+  __alloyId21.push($.__views.__alloyId56);$.__views.userWin = Ti.UI.createWindow({ backgroundColor: "#fff", title: "User", layout: "vertical", id: "userWin" });
+  $.__views.__alloyId63 = Ti.UI.createImageView({ image: "admin.png", top: 20, width: "200px", id: "__alloyId63" });
+  $.__views.userWin.add($.__views.__alloyId63);
+  $.__views.userLabel = Ti.UI.createLabel({ width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#000", font: { fontSize: 20, fontFamily: "Helvetica Neue" }, textAlign: "center", text: "Welcome! Please Login!", id: "userLabel", top: 20 });
+  $.__views.userWin.add($.__views.userLabel);
+  var __alloyId65 = [];$.__views.__alloyId66 = Ti.UI.createTableViewSection({ headerTitle: "", id: "__alloyId66" });
+  __alloyId65.push($.__views.__alloyId66);$.__views.loginRow = Ti.UI.createTableViewRow({ title: "Login", hasChild: true, id: "loginRow" });
+  $.__views.__alloyId66.add($.__views.loginRow);loginClick ? $.addListener($.__views.loginRow, 'click', loginClick) : __defers['$.__views.loginRow!click!loginClick'] = true;$.__views.__alloyId67 = Ti.UI.createTableViewRow({ title: "Booked Package", hasChild: true, hidden: true, id: "__alloyId67" });
+  $.__views.__alloyId66.add($.__views.__alloyId67);$.__views.__alloyId68 = Ti.UI.createTableViewRow({ title: "About Us", hasChild: true, id: "__alloyId68" });
+  $.__views.__alloyId66.add($.__views.__alloyId68);$.__views.__alloyId64 = Ti.UI.createTableView({ data: __alloyId65, id: "__alloyId64" });
+  $.__views.userWin.add($.__views.__alloyId64);
+  $.__views.userTab = Ti.UI.createTab({ window: $.__views.userWin, title: "User", icon: "login.png", id: "userTab" });
+  __alloyId21.push($.__views.userTab);$.__views.index = Ti.UI.createTabGroup({ tabs: __alloyId21, id: "index" });
   $.__views.index && $.addTopLevelView($.__views.index);
   exports.destroy = function () {
     __alloyId34 && __alloyId34.off('fetch destroy change add remove reset', __alloyId35);__alloyId54 && __alloyId54.off('fetch destroy change add remove reset', __alloyId55);__alloyId61 && __alloyId61.off('fetch destroy change add remove reset', __alloyId62);
@@ -152,19 +162,34 @@ function Controller() {
       $.index.activeTab.open(detailController.getView());
     }
   }
-  function loginSwitch() {
-    if (Alloy.Globals.name == "") {
+  function loginClick() {
+    if (Alloy.Globals.username == "") {
       var Controller = Alloy.createController('login', {});
+      $.index.activeTab.open(Controller.getView());
     } else {
-      var Controller = Alloy.createController('user', {});
+      alert("logout!");
+      var xhr = Ti.Network.createHTTPClient();
+      xhr.onload = function (e) {
+        var res = JSON.parse(this.responseText);
+        alert(res);
+        if (res.msg == "Logout successfully") {
+          Alloy.Globals.username = "";
+          Alloy.Globals.userLabel.text = "Welcome! Please Login!";
+          Alloy.Globals.loginRow.title = "Login";
+        } else alert("Logout Error! please contact admin!");
+      };
+      xhr.open('POST', Alloy.Globals.host + '/user/logout');
+      xhr.send();
     }
-    $.index.activeTab.open(Controller.getView());
   }
+
   Alloy.Globals.host = "http://localhost:1337";
 
   Alloy.Globals.tabGroup = $.index;
+  Alloy.Globals.userLabel = $.userLabel;
+  Alloy.Globals.loginRow = $.loginRow;
 
-  __defers['$.__views.__alloyId24!click!detailClick'] && $.addListener($.__views.__alloyId24, 'click', detailClick);__defers['$.__views.__alloyId38!click!tableClick'] && $.addListener($.__views.__alloyId38, 'click', tableClick);__defers['$.__views.__alloyId48!click!detailClick'] && $.addListener($.__views.__alloyId48, 'click', detailClick);__defers['$.__views.mapView!click!mapClicked'] && $.addListener($.__views.mapView, 'click', mapClicked);__defers['$.__views.userTab!click!loginSwitch'] && $.addListener($.__views.userTab, 'click', loginSwitch);
+  __defers['$.__views.__alloyId24!click!detailClick'] && $.addListener($.__views.__alloyId24, 'click', detailClick);__defers['$.__views.__alloyId38!click!tableClick'] && $.addListener($.__views.__alloyId38, 'click', tableClick);__defers['$.__views.__alloyId48!click!detailClick'] && $.addListener($.__views.__alloyId48, 'click', detailClick);__defers['$.__views.mapView!click!mapClicked'] && $.addListener($.__views.mapView, 'click', mapClicked);__defers['$.__views.loginRow!click!loginClick'] && $.addListener($.__views.loginRow, 'click', loginClick);
 
   _.extend($, exports);
 }

@@ -5,13 +5,12 @@ function loginFunction(e) {
     var xhr = Ti.Network.createHTTPClient();
     xhr.onload = function(e) {
         var res = JSON.parse(this.responseText)
-        alert(res);
+        // alert(res);
         if (res.msg == "login successfully"){
         Alloy.Globals.username = res.username;
-        $.userRow.hidden = false;
-        $.loginRow.hidden = true;
-        $.userTab.title = "User";
-        $.userWin.title = "User";   
+        Alloy.Globals.userLabel.text = "Welcome, "+Alloy.Globals.username+"! ";
+        Alloy.Globals.loginRow.title = "Logout";  
+        $.loginWin.close();  
         }
         else
         alert("Login Error! please Check your username and password!");

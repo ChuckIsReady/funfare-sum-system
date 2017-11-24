@@ -1,5 +1,5 @@
 
-11/24/2017, 3:47:47 PM
+11/24/2017, 4:57:32 PM
 
 Operating System
   Name                        = Mac OS X
@@ -189,13 +189,6 @@ Command
 [INFO]     created:    "Resources/iphone/alloy/controllers/priceSelect.js"
 [DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/priceSelect.js.map"
 [INFO]     created:     "Resources/iphone/alloy/styles/priceSelect.js"
-[INFO]   [user.xml] view processing...
-[INFO]     style:      "user.tss"
-[INFO]     view:       "user.xml"
-[INFO]     controller: "user.js"
-[INFO]     created:    "Resources/iphone/alloy/controllers/user.js"
-[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/user.js.map"
-[INFO]     created:     "Resources/iphone/alloy/styles/user.js"
 [INFO]   
 [INFO]   [app.js] using cached app.js...
 [INFO]   
@@ -212,9 +205,9 @@ Command
 [TRACE]   
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [0.68929s] TOTAL
+[TRACE]  [0.69204s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 0.68929s
+[INFO]   Alloy compiled in 0.69204s
 [INFO]   Alloy compiler completed successfully
 [TRACE]  Starting third-party framework detection
 [TRACE]  Scanning /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/platform/ios for frameworks
@@ -297,6 +290,7 @@ Command
 [TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/KS_nav_ui.png
 [TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/KS_nav_views.png
 [TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/Visa.sqlite
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/admin.png
 [TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/funfares.png
 [TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/home.png
 [TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/img/1.jpg
@@ -335,7 +329,6 @@ Command
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/jumpMap.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/jumpMap.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/login.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/login.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/priceSelect.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/priceSelect.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/user.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/user.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/models/MapData.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/MapData.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/models/Place.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/Place.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/models/WebNews.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/WebNews.js
@@ -344,7 +337,6 @@ Command
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/jumpMap.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/jumpMap.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/login.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/login.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/priceSelect.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/priceSelect.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/user.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/user.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/sync/localStorage.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/localStorage.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/sync/properties.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/properties.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/sync/sql.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/sql.js
@@ -440,7 +432,7 @@ Command
 [TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app: replacing existing signature
 [TRACE]  
 [TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 7s 490ms
+[INFO]   Finished building the application in 7s 711ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 7 Plus
 [TRACE]  [ioslib]   UDID    = 51FDA3EF-2969-4394-BC58-7CDA4F8585CD

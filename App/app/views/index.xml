@@ -50,11 +50,18 @@
 			</Window>
 		</Tab>
 
-		<Tab title="Login" icon="login.png"  id="userTab" onClick="loginSwitch"> 
-		
-			<Window title="Login" layout="vertical" id="userWin" >
-						
-			</Window>
+		<Tab title="User" icon="login.png"  id="userTab"> 
+		<Window title="User" layout="vertical" id="userWin" >
+					<ImageView image="admin.png" top="20" width="200px"/>
+					<Label  text="Welcome! Please Login!" id="userLabel" top="20" />	
+		<TableView > 
+				    <TableViewSection headerTitle="">					
+				        <TableViewRow title="Login"  onClick="loginClick" hasChild="true" id="loginRow"/> 
+				        <TableViewRow title="Booked Package"  hasChild="true" hidden="true"/> 
+						<TableViewRow title="About Us"  hasChild="true" /> 
+				    </TableViewSection>
+		</TableView>
+		</Window>
 
 		</Tab>
 

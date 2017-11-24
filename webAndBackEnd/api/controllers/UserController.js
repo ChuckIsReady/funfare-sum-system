@@ -51,7 +51,14 @@ module.exports = {
     }
 },
 logout: function(req, res) {
-    
+    if (req.method == "POST"){
+        req.session.destroy(function(err) {
+            var resjson = {};
+            resjson.msg="Logout successfully";
+            return res.json(resjson);
+         });
+    }
+    else
     req.session.destroy(function(err) {
        return res.send("Log out successfully.");
     });
