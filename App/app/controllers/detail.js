@@ -32,3 +32,25 @@ return collection.filter(
 		}
 	)
 }
+
+
+function buyPackage(){
+   
+    var xhr = Ti.Network.createHTTPClient();
+    xhr.onload = function(e) {
+        var res = JSON.parse(this.responseText)
+        // alert(res);
+        if (res.msg == "Order Successfully"){
+            alert("Order Successfully!")
+        }
+        else
+        alert("Order Error!");
+    };
+    xhr.open('POST',Alloy.Globals.host+'/order/createAjax');
+    xhr.send({
+    "id": $.textField.value,
+    "travelDates": $.travelDates.value,
+    "class": $.classType.value,
+    "city": $.city.value
+});
+}

@@ -28,77 +28,77 @@ function Controller() {
 
   Alloy.Collections.instance('place');Alloy.Collections.instance('mapData');
 
-  var __alloyId21 = [];$.__views.__alloyId23 = Ti.UI.createWindow({ backgroundColor: "#fff", title: "Funfares", id: "__alloyId23" });
-  $.__views.__alloyId24 = Ti.UI.createTableView({ id: "__alloyId24" });
-  $.__views.__alloyId23.add($.__views.__alloyId24);
-  var __alloyId34 = Alloy.Collections['place'] || place;function __alloyId35(e) {
+  var __alloyId26 = [];$.__views.__alloyId28 = Ti.UI.createWindow({ backgroundColor: "#fff", title: "Funfares", id: "__alloyId28" });
+  $.__views.__alloyId29 = Ti.UI.createTableView({ id: "__alloyId29" });
+  $.__views.__alloyId28.add($.__views.__alloyId29);
+  var __alloyId39 = Alloy.Collections['place'] || place;function __alloyId40(e) {
     if (e && e.fromAdapter) {
       return;
-    }var opts = __alloyId35.opts || {};var models = __alloyId34.models;var len = models.length;var rows = [];for (var i = 0; i < len; i++) {
-      var __alloyId25 = models[i];__alloyId25.__transform = transformFunction(__alloyId25);var __alloyId27 = Ti.UI.createTableViewRow({ layout: "vertical", city: __alloyId25.__transform.city });
-      rows.push(__alloyId27);
-      var __alloyId29 = Ti.UI.createImageView({ image: __alloyId25.__transform.imageUrl, top: 20 });
-      __alloyId27.add(__alloyId29);
-      var __alloyId31 = Ti.UI.createLabel({ width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#000", font: { fontSize: 20, fontFamily: "Helvetica Neue" }, textAlign: "center", text: __alloyId25.__transform.city, bottom: 20 });
-      __alloyId27.add(__alloyId31);
-      var __alloyId32 = Ti.UI.createLabel({ width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#000", font: { fontSize: 16, fontFamily: "Helvetica Neue" }, textAlign: "center", text: __alloyId25.__transform.class + ' class, $' + __alloyId25.__transform.price, bottom: 20 });
-      __alloyId27.add(__alloyId32);
-      var __alloyId33 = Ti.UI.createLabel({ width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#555", font: { fontSize: 12, fontFamily: "Helvetica Neue" }, textAlign: "left", text: 'ValidTill:' + __alloyId25.__transform.dataValidTill, bottom: 20 });
-      __alloyId27.add(__alloyId33);
-    }$.__views.__alloyId24.setData(rows);
-  };__alloyId34.on('fetch destroy change add remove reset', __alloyId35);detailClick ? $.addListener($.__views.__alloyId24, 'click', detailClick) : __defers['$.__views.__alloyId24!click!detailClick'] = true;$.__views.__alloyId22 = Ti.UI.createTab({ window: $.__views.__alloyId23, title: "Funfares", icon: "home.png", id: "__alloyId22" });
-  __alloyId21.push($.__views.__alloyId22);$.__views.__alloyId37 = Ti.UI.createWindow({ backgroundColor: "#fff", title: "Price Select", id: "__alloyId37" });
-  var __alloyId39 = [];$.__views.__alloyId40 = Ti.UI.createTableViewSection({ headerTitle: "Business Class", id: "__alloyId40" });
-  __alloyId39.push($.__views.__alloyId40);$.__views.__alloyId41 = Ti.UI.createTableViewRow({ title: "Under $7000", CompareType: "BU", hasChild: true, id: "__alloyId41" });
-  $.__views.__alloyId40.add($.__views.__alloyId41);$.__views.__alloyId42 = Ti.UI.createTableViewRow({ title: "Above $7000", CompareType: "BA", hasChild: true, id: "__alloyId42" });
-  $.__views.__alloyId40.add($.__views.__alloyId42);$.__views.__alloyId43 = Ti.UI.createTableViewSection({ headerTitle: "Economy Class", id: "__alloyId43" });
-  __alloyId39.push($.__views.__alloyId43);$.__views.__alloyId44 = Ti.UI.createTableViewRow({ title: "Under $8000", CompareType: "EU", hasChild: true, id: "__alloyId44" });
-  $.__views.__alloyId43.add($.__views.__alloyId44);$.__views.__alloyId45 = Ti.UI.createTableViewRow({ title: "Above $8000", CompareType: "EA", hasChild: true, id: "__alloyId45" });
-  $.__views.__alloyId43.add($.__views.__alloyId45);$.__views.__alloyId38 = Ti.UI.createTableView({ data: __alloyId39, id: "__alloyId38" });
-  $.__views.__alloyId37.add($.__views.__alloyId38);
-  tableClick ? $.addListener($.__views.__alloyId38, 'click', tableClick) : __defers['$.__views.__alloyId38!click!tableClick'] = true;$.__views.__alloyId36 = Ti.UI.createTab({ window: $.__views.__alloyId37, title: "Price Select", icon: "price select.png", id: "__alloyId36" });
-  __alloyId21.push($.__views.__alloyId36);$.__views.__alloyId47 = Ti.UI.createWindow({ backgroundColor: "#fff", title: "Area Select", id: "__alloyId47" });
-  $.__views.__alloyId48 = Ti.UI.createTableView({ id: "__alloyId48" });
-  $.__views.__alloyId47.add($.__views.__alloyId48);
-  var __alloyId54 = Alloy.Collections['place'] || place;function __alloyId55(e) {
+    }var opts = __alloyId40.opts || {};var models = __alloyId39.models;var len = models.length;var rows = [];for (var i = 0; i < len; i++) {
+      var __alloyId30 = models[i];__alloyId30.__transform = transformFunction(__alloyId30);var __alloyId32 = Ti.UI.createTableViewRow({ layout: "vertical", city: __alloyId30.__transform.city });
+      rows.push(__alloyId32);
+      var __alloyId34 = Ti.UI.createImageView({ image: __alloyId30.__transform.imageUrl, top: 20 });
+      __alloyId32.add(__alloyId34);
+      var __alloyId36 = Ti.UI.createLabel({ width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#000", font: { fontSize: 20, fontFamily: "Helvetica Neue" }, textAlign: "center", text: __alloyId30.__transform.city, bottom: 20 });
+      __alloyId32.add(__alloyId36);
+      var __alloyId37 = Ti.UI.createLabel({ width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#000", font: { fontSize: 16, fontFamily: "Helvetica Neue" }, textAlign: "center", text: __alloyId30.__transform.class + ' class, $' + __alloyId30.__transform.price, bottom: 20 });
+      __alloyId32.add(__alloyId37);
+      var __alloyId38 = Ti.UI.createLabel({ width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#555", font: { fontSize: 12, fontFamily: "Helvetica Neue" }, textAlign: "left", text: 'ValidTill:' + __alloyId30.__transform.dataValidTill, bottom: 20 });
+      __alloyId32.add(__alloyId38);
+    }$.__views.__alloyId29.setData(rows);
+  };__alloyId39.on('fetch destroy change add remove reset', __alloyId40);detailClick ? $.addListener($.__views.__alloyId29, 'click', detailClick) : __defers['$.__views.__alloyId29!click!detailClick'] = true;$.__views.__alloyId27 = Ti.UI.createTab({ window: $.__views.__alloyId28, title: "Funfares", icon: "home.png", id: "__alloyId27" });
+  __alloyId26.push($.__views.__alloyId27);$.__views.__alloyId42 = Ti.UI.createWindow({ backgroundColor: "#fff", title: "Price Select", id: "__alloyId42" });
+  var __alloyId44 = [];$.__views.__alloyId45 = Ti.UI.createTableViewSection({ headerTitle: "Business Class", id: "__alloyId45" });
+  __alloyId44.push($.__views.__alloyId45);$.__views.__alloyId46 = Ti.UI.createTableViewRow({ title: "Under $7000", CompareType: "BU", hasChild: true, id: "__alloyId46" });
+  $.__views.__alloyId45.add($.__views.__alloyId46);$.__views.__alloyId47 = Ti.UI.createTableViewRow({ title: "Above $7000", CompareType: "BA", hasChild: true, id: "__alloyId47" });
+  $.__views.__alloyId45.add($.__views.__alloyId47);$.__views.__alloyId48 = Ti.UI.createTableViewSection({ headerTitle: "Economy Class", id: "__alloyId48" });
+  __alloyId44.push($.__views.__alloyId48);$.__views.__alloyId49 = Ti.UI.createTableViewRow({ title: "Under $8000", CompareType: "EU", hasChild: true, id: "__alloyId49" });
+  $.__views.__alloyId48.add($.__views.__alloyId49);$.__views.__alloyId50 = Ti.UI.createTableViewRow({ title: "Above $8000", CompareType: "EA", hasChild: true, id: "__alloyId50" });
+  $.__views.__alloyId48.add($.__views.__alloyId50);$.__views.__alloyId43 = Ti.UI.createTableView({ data: __alloyId44, id: "__alloyId43" });
+  $.__views.__alloyId42.add($.__views.__alloyId43);
+  tableClick ? $.addListener($.__views.__alloyId43, 'click', tableClick) : __defers['$.__views.__alloyId43!click!tableClick'] = true;$.__views.__alloyId41 = Ti.UI.createTab({ window: $.__views.__alloyId42, title: "Price Select", icon: "price select.png", id: "__alloyId41" });
+  __alloyId26.push($.__views.__alloyId41);$.__views.__alloyId52 = Ti.UI.createWindow({ backgroundColor: "#fff", title: "Area Select", id: "__alloyId52" });
+  $.__views.__alloyId53 = Ti.UI.createTableView({ id: "__alloyId53" });
+  $.__views.__alloyId52.add($.__views.__alloyId53);
+  var __alloyId59 = Alloy.Collections['place'] || place;function __alloyId60(e) {
     if (e && e.fromAdapter) {
       return;
-    }var opts = __alloyId55.opts || {};var models = __alloyId54.models;var len = models.length;var rows = [];for (var i = 0; i < len; i++) {
-      var __alloyId49 = models[i];__alloyId49.__transform = getGroup(__alloyId49);var __alloyId53 = Ti.UI.createTableViewSection({ headerTitle: __alloyId49.__transform.headerTitle });
-      rows.push(__alloyId53);
-      var __alloyId52 = Ti.UI.createTableViewRow({ title: __alloyId49.__transform.city + ' Till: ' + __alloyId49.__transform.dataValidTill, hasChild: true, city: __alloyId49.__transform.city });
-      __alloyId53.add(__alloyId52);
-    }$.__views.__alloyId48.setData(rows);
-  };__alloyId54.on('fetch destroy change add remove reset', __alloyId55);detailClick ? $.addListener($.__views.__alloyId48, 'click', detailClick) : __defers['$.__views.__alloyId48!click!detailClick'] = true;$.__views.__alloyId46 = Ti.UI.createTab({ window: $.__views.__alloyId47, title: "Area Select", icon: "place select.png", id: "__alloyId46" });
-  __alloyId21.push($.__views.__alloyId46);$.__views.__alloyId57 = Ti.UI.createWindow({ backgroundColor: "#fff", title: "Map", navBarHidden: true, id: "__alloyId57" });
-  var __alloyId58 = [];
-  $.__views.__alloyId59 = require("ti.map").createAnnotation({ rightButton: Titanium.UI.iOS.SystemButton.DISCLOSURE, latitude: NaN, longitude: NaN, id: "__alloyId59" });
-  __alloyId58.push($.__views.__alloyId59);
-  $.__views.mapView = (require("ti.map").createView || Ti.UI.createView)({ region: { latitude: 22.27856, longitude: 114.165228, latitudeDelta: 0.05, longitudeDelta: 0.05 }, annotations: __alloyId58, id: "mapView", userLocation: true });
-  $.__views.__alloyId57.add($.__views.mapView);
-  var __alloyId61 = Alloy.Collections['mapData'] || mapData;function __alloyId62(e) {
+    }var opts = __alloyId60.opts || {};var models = __alloyId59.models;var len = models.length;var rows = [];for (var i = 0; i < len; i++) {
+      var __alloyId54 = models[i];__alloyId54.__transform = getGroup(__alloyId54);var __alloyId58 = Ti.UI.createTableViewSection({ headerTitle: __alloyId54.__transform.headerTitle });
+      rows.push(__alloyId58);
+      var __alloyId57 = Ti.UI.createTableViewRow({ title: __alloyId54.__transform.city + ' Till: ' + __alloyId54.__transform.dataValidTill, hasChild: true, city: __alloyId54.__transform.city });
+      __alloyId58.add(__alloyId57);
+    }$.__views.__alloyId53.setData(rows);
+  };__alloyId59.on('fetch destroy change add remove reset', __alloyId60);detailClick ? $.addListener($.__views.__alloyId53, 'click', detailClick) : __defers['$.__views.__alloyId53!click!detailClick'] = true;$.__views.__alloyId51 = Ti.UI.createTab({ window: $.__views.__alloyId52, title: "Area Select", icon: "place select.png", id: "__alloyId51" });
+  __alloyId26.push($.__views.__alloyId51);$.__views.__alloyId62 = Ti.UI.createWindow({ backgroundColor: "#fff", title: "Map", navBarHidden: true, id: "__alloyId62" });
+  var __alloyId63 = [];
+  $.__views.__alloyId64 = require("ti.map").createAnnotation({ rightButton: Titanium.UI.iOS.SystemButton.DISCLOSURE, latitude: NaN, longitude: NaN, id: "__alloyId64" });
+  __alloyId63.push($.__views.__alloyId64);
+  $.__views.mapView = (require("ti.map").createView || Ti.UI.createView)({ region: { latitude: 22.27856, longitude: 114.165228, latitudeDelta: 0.05, longitudeDelta: 0.05 }, annotations: __alloyId63, id: "mapView", userLocation: true });
+  $.__views.__alloyId62.add($.__views.mapView);
+  var __alloyId66 = Alloy.Collections['mapData'] || mapData;function __alloyId67(e) {
     if (e && e.fromAdapter) {
       return;
-    }var opts = __alloyId62.opts || {};var models = __alloyId61.models;var len = models.length;for (var i = 0; i < len; i++) {
-      var __alloyId60 = models[i];__alloyId58.push(require('ti.map').createAnnotation(getMapPoint(__alloyId60)));
-    }$.__views.mapView.annotations = __alloyId58;
-  };__alloyId61.on('fetch destroy change add remove reset', __alloyId62);mapClicked ? $.addListener($.__views.mapView, 'click', mapClicked) : __defers['$.__views.mapView!click!mapClicked'] = true;$.__views.__alloyId56 = Ti.UI.createTab({ window: $.__views.__alloyId57, title: "Map", icon: "map.png", id: "__alloyId56" });
-  __alloyId21.push($.__views.__alloyId56);$.__views.userWin = Ti.UI.createWindow({ backgroundColor: "#fff", title: "User", layout: "vertical", id: "userWin" });
-  $.__views.__alloyId63 = Ti.UI.createImageView({ image: "admin.png", top: 20, width: "200px", id: "__alloyId63" });
-  $.__views.userWin.add($.__views.__alloyId63);
+    }var opts = __alloyId67.opts || {};var models = __alloyId66.models;var len = models.length;for (var i = 0; i < len; i++) {
+      var __alloyId65 = models[i];__alloyId63.push(require('ti.map').createAnnotation(getMapPoint(__alloyId65)));
+    }$.__views.mapView.annotations = __alloyId63;
+  };__alloyId66.on('fetch destroy change add remove reset', __alloyId67);mapClicked ? $.addListener($.__views.mapView, 'click', mapClicked) : __defers['$.__views.mapView!click!mapClicked'] = true;$.__views.__alloyId61 = Ti.UI.createTab({ window: $.__views.__alloyId62, title: "Map", icon: "map.png", id: "__alloyId61" });
+  __alloyId26.push($.__views.__alloyId61);$.__views.userWin = Ti.UI.createWindow({ backgroundColor: "#fff", title: "User", layout: "vertical", id: "userWin" });
+  $.__views.__alloyId68 = Ti.UI.createImageView({ image: "admin.png", top: 20, width: "200px", id: "__alloyId68" });
+  $.__views.userWin.add($.__views.__alloyId68);
   $.__views.userLabel = Ti.UI.createLabel({ width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#000", font: { fontSize: 20, fontFamily: "Helvetica Neue" }, textAlign: "center", text: "Welcome! Please Login!", id: "userLabel", top: 20 });
   $.__views.userWin.add($.__views.userLabel);
-  var __alloyId65 = [];$.__views.__alloyId66 = Ti.UI.createTableViewSection({ headerTitle: "", id: "__alloyId66" });
-  __alloyId65.push($.__views.__alloyId66);$.__views.loginRow = Ti.UI.createTableViewRow({ title: "Login", hasChild: true, id: "loginRow" });
-  $.__views.__alloyId66.add($.__views.loginRow);loginClick ? $.addListener($.__views.loginRow, 'click', loginClick) : __defers['$.__views.loginRow!click!loginClick'] = true;$.__views.__alloyId67 = Ti.UI.createTableViewRow({ title: "Booked Package", hasChild: true, hidden: true, id: "__alloyId67" });
-  $.__views.__alloyId66.add($.__views.__alloyId67);$.__views.__alloyId68 = Ti.UI.createTableViewRow({ title: "About Us", hasChild: true, id: "__alloyId68" });
-  $.__views.__alloyId66.add($.__views.__alloyId68);$.__views.__alloyId64 = Ti.UI.createTableView({ data: __alloyId65, id: "__alloyId64" });
-  $.__views.userWin.add($.__views.__alloyId64);
+  var __alloyId70 = [];$.__views.__alloyId71 = Ti.UI.createTableViewSection({ headerTitle: "", id: "__alloyId71" });
+  __alloyId70.push($.__views.__alloyId71);$.__views.loginRow = Ti.UI.createTableViewRow({ title: "Login", hasChild: true, id: "loginRow" });
+  $.__views.__alloyId71.add($.__views.loginRow);loginClick ? $.addListener($.__views.loginRow, 'click', loginClick) : __defers['$.__views.loginRow!click!loginClick'] = true;$.__views.__alloyId72 = Ti.UI.createTableViewRow({ title: "Booked Package", hasChild: true, hidden: true, id: "__alloyId72" });
+  $.__views.__alloyId71.add($.__views.__alloyId72);$.__views.__alloyId73 = Ti.UI.createTableViewRow({ title: "About Us", hasChild: true, id: "__alloyId73" });
+  $.__views.__alloyId71.add($.__views.__alloyId73);$.__views.__alloyId69 = Ti.UI.createTableView({ data: __alloyId70, id: "__alloyId69" });
+  $.__views.userWin.add($.__views.__alloyId69);
   $.__views.userTab = Ti.UI.createTab({ window: $.__views.userWin, title: "User", icon: "login.png", id: "userTab" });
-  __alloyId21.push($.__views.userTab);$.__views.index = Ti.UI.createTabGroup({ tabs: __alloyId21, id: "index" });
+  __alloyId26.push($.__views.userTab);$.__views.index = Ti.UI.createTabGroup({ tabs: __alloyId26, id: "index" });
   $.__views.index && $.addTopLevelView($.__views.index);
   exports.destroy = function () {
-    __alloyId34 && __alloyId34.off('fetch destroy change add remove reset', __alloyId35);__alloyId54 && __alloyId54.off('fetch destroy change add remove reset', __alloyId55);__alloyId61 && __alloyId61.off('fetch destroy change add remove reset', __alloyId62);
+    __alloyId39 && __alloyId39.off('fetch destroy change add remove reset', __alloyId40);__alloyId59 && __alloyId59.off('fetch destroy change add remove reset', __alloyId60);__alloyId66 && __alloyId66.off('fetch destroy change add remove reset', __alloyId67);
   };
 
   _.extend($, $.__views);
@@ -167,11 +167,9 @@ function Controller() {
       var Controller = Alloy.createController('login', {});
       $.index.activeTab.open(Controller.getView());
     } else {
-      alert("logout!");
       var xhr = Ti.Network.createHTTPClient();
       xhr.onload = function (e) {
         var res = JSON.parse(this.responseText);
-        alert(res);
         if (res.msg == "Logout successfully") {
           Alloy.Globals.username = "";
           Alloy.Globals.userLabel.text = "Welcome! Please Login!";
@@ -189,7 +187,7 @@ function Controller() {
   Alloy.Globals.userLabel = $.userLabel;
   Alloy.Globals.loginRow = $.loginRow;
 
-  __defers['$.__views.__alloyId24!click!detailClick'] && $.addListener($.__views.__alloyId24, 'click', detailClick);__defers['$.__views.__alloyId38!click!tableClick'] && $.addListener($.__views.__alloyId38, 'click', tableClick);__defers['$.__views.__alloyId48!click!detailClick'] && $.addListener($.__views.__alloyId48, 'click', detailClick);__defers['$.__views.mapView!click!mapClicked'] && $.addListener($.__views.mapView, 'click', mapClicked);__defers['$.__views.loginRow!click!loginClick'] && $.addListener($.__views.loginRow, 'click', loginClick);
+  __defers['$.__views.__alloyId29!click!detailClick'] && $.addListener($.__views.__alloyId29, 'click', detailClick);__defers['$.__views.__alloyId43!click!tableClick'] && $.addListener($.__views.__alloyId43, 'click', tableClick);__defers['$.__views.__alloyId53!click!detailClick'] && $.addListener($.__views.__alloyId53, 'click', detailClick);__defers['$.__views.mapView!click!mapClicked'] && $.addListener($.__views.mapView, 'click', mapClicked);__defers['$.__views.loginRow!click!loginClick'] && $.addListener($.__views.loginRow, 'click', loginClick);
 
   _.extend($, exports);
 }

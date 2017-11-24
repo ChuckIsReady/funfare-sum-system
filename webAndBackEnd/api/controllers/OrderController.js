@@ -6,7 +6,22 @@
  */
 
 module.exports = {
-	create: function(req, res) {
+    createAjax: function(req, res) {
+        if (req.method == "POST") {
+
+            Order.create(req.body.Order).exec( function(err, model) {
+                model.class = req.body.class,
+                model.city = req.body.city,
+                model.username = req.session.username,
+                model.pid = req.body.id,
+                model.travelDates = req.body.travelDates,
+                model.save();
+                console.log(model);
+                return res.json( {'msg': 'Order Successfully','username':req.session.username});
+            });
+        } 
+    },
+    create: function(req, res) {
         if (req.method == "POST") {
 
             Order.create(req.body.Order).exec( function(err, model) {

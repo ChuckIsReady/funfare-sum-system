@@ -3272,12 +3272,12 @@
 		},
 		"DefaultIcon.png": {
 			"hash": "6c03d61b91312b30ff38522faa5364fd",
-			"mtime": "2017-11-24T08:57:34.000Z",
+			"mtime": "2017-11-24T09:45:40.000Z",
 			"size": 271493
 		},
 		"LaunchLogo.png": {
 			"hash": "2801dac467ed6b7c91d44f23fc10fa04",
-			"mtime": "2017-11-24T08:50:19.000Z",
+			"mtime": "2017-11-24T09:45:04.000Z",
 			"size": 271493
 		},
 		"KS_nav_ui.png": {
@@ -3372,7 +3372,7 @@
 		},
 		"alloy_generated": {
 			"hash": "b9b62e3e10ab98f03010e1fe8362c390",
-			"mtime": "2017-11-24T08:57:32.000Z",
+			"mtime": "2017-11-24T09:45:38.000Z",
 			"size": 279
 		},
 		"README": {

@@ -58,7 +58,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		xGurvMxPSFMr7AxoyBEgU28yloY=
+		G7hy8VGkZRVMMrYdUUFjnBszisk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		hffYgJVRDccwAWPkEv6fiuViFM4=
+		K6cvTR5iNxQC6vb6Y92e3ZsQng0=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		/jfnwF0Q1rWzk8UKqYXrNLivS3Y=
+		NjZ295O7tgKuC9OOwhDGNEqHdyc=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -158,27 +158,23 @@
 		</data>
 		<key>alloy/controllers/detail.js</key>
 		<data>
-		hskXcK0oD3Xf2Z95PtTqpqdalWQ=
+		S9PnXOGRTGbIjJ+i62atL/hHIQk=
 		</data>
 		<key>alloy/controllers/index.js</key>
 		<data>
-		q6aquI7LMK9t6kpQ6GQSkEelhek=
+		x61y+eAfyKumjidEWnrsNDwGU2k=
 		</data>
 		<key>alloy/controllers/jumpMap.js</key>
 		<data>
-		u6lWfDASP21PuNvsRS7lqHumOHc=
+		/Ofy2EnDpNTLVi2HZG+hVxpm1sE=
 		</data>
 		<key>alloy/controllers/login.js</key>
 		<data>
-		+ar7twQGDJDjSnaRiEPkdgVmOko=
+		bnI/PCHQ0nSv0dsMbnoK7DSUwNU=
 		</data>
 		<key>alloy/controllers/priceSelect.js</key>
 		<data>
-		Ed7tW7KAZ3xMZYDqhN4SC0R4lW4=
-		</data>
-		<key>alloy/controllers/user.js</key>
-		<data>
-		RrzLfoamy8GVxdcQctRodnUtc0E=
+		QemtuTA/naaGSI78I7sv8EnGyXE=
 		</data>
 		<key>alloy/models/MapData.js</key>
 		<data>
@@ -215,10 +211,6 @@
 		<key>alloy/styles/priceSelect.js</key>
 		<data>
 		ZC8RPUCofN21h6EgmRTpML+NtRE=
-		</data>
-		<key>alloy/styles/user.js</key>
-		<data>
-		g5KeV+uU/ovfRmL6ar98/qeiOeU=
 		</data>
 		<key>alloy/sync/localStorage.js</key>
 		<data>
@@ -470,11 +462,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xGurvMxPSFMr7AxoyBEgU28yloY=
+			G7hy8VGkZRVMMrYdUUFjnBszisk=
 			</data>
 			<key>hash2</key>
 			<data>
-			2tWyPyHM23WglzGQq1xg18F6jo/leIvs6SWhvhDRgOk=
+			bVsWyIZh0+76temFrOdQF1eNv/BXgPE5LgY3+3on3do=
 			</data>
 		</dict>
 		<key>KS_nav_ui.png</key>
@@ -602,11 +594,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hffYgJVRDccwAWPkEv6fiuViFM4=
+			K6cvTR5iNxQC6vb6Y92e3ZsQng0=
 			</data>
 			<key>hash2</key>
 			<data>
-			bPhZrsDSLFp+ziTD4u6AP2G5yuWNYwl4YNEcaak6MVw=
+			ysSJAcK73U5QhJAmbFxJzLnm5jBEPOsMlGMQqkPCpbs=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -624,11 +616,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/jfnwF0Q1rWzk8UKqYXrNLivS3Y=
+			NjZ295O7tgKuC9OOwhDGNEqHdyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			3iHqf9cHMqTg132k9j2jDTX+MQVErM15YnmAd22rpiI=
+			5pzTFnAY0lUksrUb5uZYBdCT4Kt9q3IR9G8td1oj91g=
 			</data>
 		</dict>
 		<key>Visa.sqlite</key>
@@ -723,66 +715,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hskXcK0oD3Xf2Z95PtTqpqdalWQ=
+			S9PnXOGRTGbIjJ+i62atL/hHIQk=
 			</data>
 			<key>hash2</key>
 			<data>
-			sYsEX/sFDuWSPsyksLQ2fs0E4BDdajpCdq+jMZpk3qs=
+			Ovktoz1Ly++jbIg0KX9ewSYdTitncNHoF1L/Hg3OHh8=
 			</data>
 		</dict>
 		<key>alloy/controllers/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q6aquI7LMK9t6kpQ6GQSkEelhek=
+			x61y+eAfyKumjidEWnrsNDwGU2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			q0R4S7sxh//8nmh08KMZ4UW6RIi52tgQAFGqJJfvnAU=
+			BUsksjMpJzyj5Y5ocNZsLmtZMuagIQqyepiUs6rP+ak=
 			</data>
 		</dict>
 		<key>alloy/controllers/jumpMap.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u6lWfDASP21PuNvsRS7lqHumOHc=
+			/Ofy2EnDpNTLVi2HZG+hVxpm1sE=
 			</data>
 			<key>hash2</key>
 			<data>
-			vJVM+2UfhK/Lzq049xPewqrhmSymL4IZhN7POkohgIE=
+			3MTuboWG2IfBUXnSsJKejGlZ+RwM9XinZXnA3U4q28Q=
 			</data>
 		</dict>
 		<key>alloy/controllers/login.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+ar7twQGDJDjSnaRiEPkdgVmOko=
+			bnI/PCHQ0nSv0dsMbnoK7DSUwNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wYeQyS6+SPJ5NNzuLImcfvp9HnV6MwRFirjo8wRqwgs=
+			xU9F47PZIuvx+JzRCSjUu8Yf03t4MA4DQQVRjR4ZDKM=
 			</data>
 		</dict>
 		<key>alloy/controllers/priceSelect.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ed7tW7KAZ3xMZYDqhN4SC0R4lW4=
+			QemtuTA/naaGSI78I7sv8EnGyXE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6qKfDuR4yCUBBcB+PjKR+jk+3JMXkegsTwp+sstX0/g=
-			</data>
-		</dict>
-		<key>alloy/controllers/user.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RrzLfoamy8GVxdcQctRodnUtc0E=
-			</data>
-			<key>hash2</key>
-			<data>
-			3zNjSdPP71Px5L/1UQ9a0ntgwlqeRPDTLj3YCIr3Iaw=
+			JfWxUBw7ShlD7I2SP1+Uct0aQtEczyVdzAxWBzd4Mhw=
 			</data>
 		</dict>
 		<key>alloy/models/MapData.js</key>
@@ -882,17 +863,6 @@
 			<key>hash2</key>
 			<data>
 			Gdulqu1fiihrOfJbNdRZY8F7VP/7rNsfszHpcuawXKI=
-			</data>
-		</dict>
-		<key>alloy/styles/user.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g5KeV+uU/ovfRmL6ar98/qeiOeU=
-			</data>
-			<key>hash2</key>
-			<data>
-			0V7YF8aYsjid+ZUnKMPewNKabzvOPKrKLSaWcJEEoQg=
 			</data>
 		</dict>
 		<key>alloy/sync/localStorage.js</key>
