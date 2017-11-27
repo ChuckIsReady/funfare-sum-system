@@ -95,6 +95,11 @@ function getMyPackage (){
     
     Alloy.Globals.tabGroup.activeTab.open(jumpMapController.getView());
 }
+
+function aboutUs(){
+    alert("Funfare App \n Name: Cheng Bo\n Id: 17433045")
+}
+
 Alloy.Globals.host = "http://localhost:1337";
 
 Alloy.Globals.tabGroup=$.index;

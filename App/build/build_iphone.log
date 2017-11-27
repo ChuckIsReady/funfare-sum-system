@@ -1,5 +1,5 @@
 
-11/27/2017, 8:54:41 PM
+11/27/2017, 8:59:20 PM
 
 Operating System
   Name                        = Mac OS X
@@ -212,9 +212,9 @@ Command
 [TRACE]   
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [0.82449s] TOTAL
+[TRACE]  [0.71015s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 0.82449s
+[INFO]   Alloy compiled in 0.71015s
 [INFO]   Alloy compiler completed successfully
 [TRACE]  Starting third-party framework detection
 [TRACE]  Scanning /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/platform/ios for frameworks
@@ -440,7 +440,7 @@ Command
 [TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app: replacing existing signature
 [TRACE]  
 [TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 7s 678ms
+[INFO]   Finished building the application in 7s 427ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 7 Plus
 [TRACE]  [ioslib]   UDID    = 51FDA3EF-2969-4394-BC58-7CDA4F8585CD

@@ -58,7 +58,7 @@
 				    <TableViewSection headerTitle="">					
 				        <TableViewRow title="Login"  onClick="loginClick" hasChild="true" id="loginRow"/> 
 				        <TableViewRow title="Booked Package"  hasChild="true" hidden="true" onClick="getMyPackage"/> 
-						<TableViewRow title="About Us"  hasChild="true" /> 
+						<TableViewRow title="About Us"  hasChild="true" onClick="aboutUs" /> 
 				    </TableViewSection>
 		</TableView>
 		</Window>

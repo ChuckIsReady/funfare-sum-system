@@ -92,7 +92,7 @@ function Controller() {
   __alloyId66.push($.__views.__alloyId67);$.__views.loginRow = Ti.UI.createTableViewRow({ title: "Login", hasChild: true, id: "loginRow" });
   $.__views.__alloyId67.add($.__views.loginRow);loginClick ? $.addListener($.__views.loginRow, 'click', loginClick) : __defers['$.__views.loginRow!click!loginClick'] = true;$.__views.__alloyId68 = Ti.UI.createTableViewRow({ title: "Booked Package", hasChild: true, hidden: true, id: "__alloyId68" });
   $.__views.__alloyId67.add($.__views.__alloyId68);getMyPackage ? $.addListener($.__views.__alloyId68, 'click', getMyPackage) : __defers['$.__views.__alloyId68!click!getMyPackage'] = true;$.__views.__alloyId69 = Ti.UI.createTableViewRow({ title: "About Us", hasChild: true, id: "__alloyId69" });
-  $.__views.__alloyId67.add($.__views.__alloyId69);$.__views.__alloyId65 = Ti.UI.createTableView({ data: __alloyId66, id: "__alloyId65" });
+  $.__views.__alloyId67.add($.__views.__alloyId69);aboutUs ? $.addListener($.__views.__alloyId69, 'click', aboutUs) : __defers['$.__views.__alloyId69!click!aboutUs'] = true;$.__views.__alloyId65 = Ti.UI.createTableView({ data: __alloyId66, id: "__alloyId65" });
   $.__views.userWin.add($.__views.__alloyId65);
   $.__views.userTab = Ti.UI.createTab({ window: $.__views.userWin, title: "User", icon: "login.png", id: "userTab" });
   __alloyId22.push($.__views.userTab);$.__views.index = Ti.UI.createTabGroup({ tabs: __alloyId22, id: "index" });
@@ -190,13 +190,18 @@ function Controller() {
 
     Alloy.Globals.tabGroup.activeTab.open(jumpMapController.getView());
   }
+
+  function aboutUs() {
+    alert("Funfare App \n Name: Cheng Bo\n Id: 17433045");
+  }
+
   Alloy.Globals.host = "http://localhost:1337";
 
   Alloy.Globals.tabGroup = $.index;
   Alloy.Globals.userLabel = $.userLabel;
   Alloy.Globals.loginRow = $.loginRow;
 
-  __defers['$.__views.__alloyId25!click!detailClick'] && $.addListener($.__views.__alloyId25, 'click', detailClick);__defers['$.__views.__alloyId39!click!tableClick'] && $.addListener($.__views.__alloyId39, 'click', tableClick);__defers['$.__views.__alloyId49!click!detailClick'] && $.addListener($.__views.__alloyId49, 'click', detailClick);__defers['$.__views.mapView!click!mapClicked'] && $.addListener($.__views.mapView, 'click', mapClicked);__defers['$.__views.loginRow!click!loginClick'] && $.addListener($.__views.loginRow, 'click', loginClick);__defers['$.__views.__alloyId68!click!getMyPackage'] && $.addListener($.__views.__alloyId68, 'click', getMyPackage);
+  __defers['$.__views.__alloyId25!click!detailClick'] && $.addListener($.__views.__alloyId25, 'click', detailClick);__defers['$.__views.__alloyId39!click!tableClick'] && $.addListener($.__views.__alloyId39, 'click', tableClick);__defers['$.__views.__alloyId49!click!detailClick'] && $.addListener($.__views.__alloyId49, 'click', detailClick);__defers['$.__views.mapView!click!mapClicked'] && $.addListener($.__views.mapView, 'click', mapClicked);__defers['$.__views.loginRow!click!loginClick'] && $.addListener($.__views.loginRow, 'click', loginClick);__defers['$.__views.__alloyId68!click!getMyPackage'] && $.addListener($.__views.__alloyId68, 'click', getMyPackage);__defers['$.__views.__alloyId69!click!aboutUs'] && $.addListener($.__views.__alloyId69, 'click', aboutUs);
 
   _.extend($, exports);
 }

@@ -86,41 +86,7 @@ function buyPackage(e){
 
    dialog.addEventListener('click', onSelectDialog);   
    dialog.show(); 
-
-//    var r = confirm("Are you sure?\n Book this Package?");
-//    if(!r)return false;
-// var dialog = Ti.UI.createOptionDialog(opts);
-// dialog.addEventListener('click', onSelectDialog); 
-// dialog.addEventListener('Yes', function(e) { 
-    
-   
-
-// });
-// dialog.addEventListener('No', function(e) { alert('Dialog canceled! e.cancel = ' + e.cancel + ', e.index = ' + e.index); });
-// dialog.show();
-
-// alert('Dialog canceled!' );
-// if(e.source.quota<1){
-//     alert("Transaction Unsuccessful.\n Package already full.");
-//     return false;
-// }
-
-// var xhr = Ti.Network.createHTTPClient();
-// xhr.onload = function(e) {
-//     var res = JSON.parse(this.responseText)
-//     // alert(res);
-//     if (res.msg == "Order Successfully"){
-//         alert("Order Successfully!")
-//     }
-//     else
-//     alert("Order Error!");
-// };
-// xhr.open('POST',Alloy.Globals.host+'/order/createAjax');
-// xhr.send({
-// "id": e.source.idd,
-// "travelDates": e.source.travelDates ,
-// "class": e.source.classs ,
-// "city": e.source.city
-// });  
 }
+
+
  

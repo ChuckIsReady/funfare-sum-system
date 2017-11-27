@@ -114,15 +114,19 @@
         "travelDates": "2016/11/1 - 2017/11/11"
       },
       {
-        "createdAt": "2017-11-27T12:46:25.690Z",
-        "updatedAt": "2017-11-27T12:46:25.694Z",
-        "id": 19,
-        "username": "Chuck"
-      },
-      {
         "createdAt": "2017-11-27T12:55:09.037Z",
         "updatedAt": "2017-11-27T12:55:09.042Z",
         "id": 20,
+        "class": "Economy",
+        "city": "Osaka",
+        "username": "Chuck",
+        "pid": "1",
+        "travelDates": "2016/11/1 - 2017/11/11"
+      },
+      {
+        "createdAt": "2017-11-27T12:59:50.710Z",
+        "updatedAt": "2017-11-27T12:59:50.715Z",
+        "id": 21,
         "class": "Economy",
         "city": "Osaka",
         "username": "Chuck",
@@ -235,7 +239,7 @@
       "id": 126
     },
     "order": {
-      "id": 20
+      "id": 21
     },
     "user": {
       "id": 2
