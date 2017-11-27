@@ -8,12 +8,8 @@
 				        <Label id="Label2" text="{class} class, ${price}" bottom="20" /> 
 				        <Label id="Label2" text="Date: {travelDatesStart} - {travelDatesEnd}" bottom="20" /> 
 				        <Label id="Label3" text="Quota: {overallQuota} ValidTill:{dataValidTill}" bottom="20" /> 
-				        <TextField value="{id}" id="textField" width="1" height="1"/>
-						<TextField value="{city}" id="city" width="1" height="1"/>
-						<TextField value="{travelDatesStart} - {travelDatesEnd}" id="travelDates" width="1" height="1"/>
-						<TextField value="{class}" id="classType" width="1" height="1"/>
 						<Button title="Address for Visa Application" onClick="jumpToMap" top="10" /> 
-				   		<Button id="buyBtn" title="Buy this package" top="5" bottom="90" width="200" onClick="buyPackage" color="#fff" borderRadius="5" backgroundColor="#00c0ff"/> 	
+				   		<Button id="buyBtn" idd="{id}" city="{city}" quota="{overallQuota}"  travelDates="{travelDatesStart} - {travelDatesEnd}" classs="{class}" title="Buy this package" top="5" bottom="90" width="200" onClick="buyPackage" color="#fff" borderRadius="5" backgroundColor="#00c0ff"/> 	
 				    </TableViewRow>
         </TableView>
     </Window> 

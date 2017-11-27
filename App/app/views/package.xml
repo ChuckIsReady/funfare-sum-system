@@ -1,0 +1,8 @@
+<Alloy>
+    <Collection src="packageData" />
+    <Window id='win'>
+        <TableView dataCollection="packageData"  onClick="detailClick">
+            <TableViewRow title="{city} travelDates: {travelDates}" city="{city}" idd="{id}"/> 
+        </TableView>
+    </Window> 
+</Alloy>

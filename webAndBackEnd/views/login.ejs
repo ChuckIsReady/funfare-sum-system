@@ -15,7 +15,7 @@
       xhr.onload = function(){
         var res = JSON.parse(this.responseText)
         if (res.msg == "login successfully"){
-        Alloy.Globals.username = res.username;
+          // Alloy.Globals.username = res.username;
           window.location = "/";
         }
         else

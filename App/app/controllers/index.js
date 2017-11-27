@@ -83,7 +83,18 @@ function loginClick(){
             }
             
 }
-
+function getMyPackage (){
+    if( Alloy.Globals.username==""){
+        alert("Please login first!");
+        return false;
+       }
+       
+       var jumpMapController = Alloy.createController('package', {
+        
+    });
+    
+    Alloy.Globals.tabGroup.activeTab.open(jumpMapController.getView());
+}
 Alloy.Globals.host = "http://localhost:1337";
 
 Alloy.Globals.tabGroup=$.index;

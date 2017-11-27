@@ -25,15 +25,15 @@
             <li class="Funfares active"><a href="/">Funfares</a></li>
             <li class="Search  "><a href="/funfare/Search">Search  </a></li>
 
-          <%if(username=='admin'){%>
+          <%if(username!=undefined && username=='admin'){%>
             <li class="Create  "><a href="/funfare/Create ">Create  </a></li>
             <li class="Admin   "><a href="/funfare/Admin ">Admin   </a></li>
-            <li class="float-right "><a href="/user/loginout ">Login Out </a></li>
+            <li class="float-right "><a href="/user/logout ">Login Out </a></li>
             <li class="float-right">Hi, Admin!</li>
             
-            <%} else if (username!=null){%>
+            <%} else if (username!=undefined) {%>
               <li class="Admin   "><a href="/order/orderList ">My Package  </a></li>
-              <li class="float-right "><a href="/user/loginout ">Login Out </a></li>
+              <li class="float-right "><a href="/user/logout ">Login Out </a></li>
               <li class="float-right">Hi, <%=username%>!</li>
              <%} else{%> 
             <li class="Admin  float-right "><a href="/user/login ">Login   </a></li>

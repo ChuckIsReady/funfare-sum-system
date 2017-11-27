@@ -20,7 +20,7 @@ var funfare = {"region":"East Asia","city":"Osaka","class":"Economy",
     Funfare.create(funfare).exec( function(err, model) {});
 
 funfare = {"region":"East Asia","city":"Seoul","class":"Economy",
-	"price":"7500","imageUrl":"/img/2.jpg","dataValidTill":"2016-10-10T16:00:00.000Z","overallQuota":"150",
+	"price":"7500","imageUrl":"/img/2.jpg","dataValidTill":"2016-10-10T16:00:00.000Z","overallQuota":"0",
 		"travelDatesStart":"2017-3-1T16:00:00.000Z","travelDatesEnd":"2018-11-11T16:00:00.000Z"};
 
     Funfare.create(funfare).exec( function(err, model) {});

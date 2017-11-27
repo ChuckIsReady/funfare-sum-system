@@ -37,13 +37,30 @@ module.exports = {
             });
         } 
     },
-    orderList:function (req, res) {
+orderList:function (req, res) {
     // body...
     Order.find() .where({username:{'contains' :req.session.username}}).exec( function(err, model) {
         if (model != null)
             return res.view('orderList', {'order': model,'username':req.session.username});
         else
             return res.view('message', {'message': "You don't have any order, pick one and come back!",'username':req.session.username});
+    }); 
+},
+getOrderListAJAX:function (req, res) {
+    console.log(req.session.username + "is fetch his Package.")
+    Order.find() .where({username:{'contains' :req.session.username}}).exec( function(err, model) {
+        if (model != null)
+        {
+            console.log(model);
+            return res.json(model);
+        }
+        else{
+            model = {};
+            model.msg = "You don't have any order, pick one and come back!";
+            console.log(model);
+            return res.json(model);
+        }
+        
     }); 
 },
 delete: function (req, res) {
@@ -61,7 +78,7 @@ delete: function (req, res) {
         }
     
     },
-    getbuyer:function (req, res) {
+getbuyer:function (req, res) {
     // body...
     Order.find() .where({pid:{'contains' :req.params.id}}).exec( function(err, model) {
         if (model != null)

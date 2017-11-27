@@ -32,9 +32,9 @@ function Controller() {
 	$.__views.loginWin.add($.__views.textField);
 	$.__views.textField2 = Ti.UI.createTextField({ id: "textField2", passwordMask: true, height: 50, width: 300, hintText: "Enter your password", borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED });
 	$.__views.loginWin.add($.__views.textField2);
-	$.__views.__alloyId81 = Ti.UI.createButton({ title: "Login", top: 40, width: 200, color: "#fff", borderRadius: 5, backgroundColor: "#00c0ff", id: "__alloyId81" });
-	$.__views.loginWin.add($.__views.__alloyId81);
-	loginFunction ? $.addListener($.__views.__alloyId81, 'click', loginFunction) : __defers['$.__views.__alloyId81!click!loginFunction'] = true;exports.destroy = function () {};
+	$.__views.__alloyId77 = Ti.UI.createButton({ title: "Login", top: 40, width: 200, color: "#fff", borderRadius: 5, backgroundColor: "#00c0ff", id: "__alloyId77" });
+	$.__views.loginWin.add($.__views.__alloyId77);
+	loginFunction ? $.addListener($.__views.__alloyId77, 'click', loginFunction) : __defers['$.__views.__alloyId77!click!loginFunction'] = true;exports.destroy = function () {};
 
 	_.extend($, $.__views);
 
@@ -59,7 +59,7 @@ function Controller() {
 		});
 	}
 
-	__defers['$.__views.__alloyId81!click!loginFunction'] && $.addListener($.__views.__alloyId81, 'click', loginFunction);
+	__defers['$.__views.__alloyId77!click!loginFunction'] && $.addListener($.__views.__alloyId77, 'click', loginFunction);
 
 	_.extend($, exports);
 }

@@ -1,5 +1,5 @@
 
-11/24/2017, 5:45:38 PM
+11/27/2017, 8:54:41 PM
 
 Operating System
   Name                        = Mac OS X
@@ -63,7 +63,8 @@ Command
 [INFO]   Found Titanium plugin id=ti.alloy version=1.0 
 [TRACE]  Snapshotting build directory
 [DEBUG]  Checking if log server port 33088 is available
-[DEBUG]  Log server port 33088 is available
+[DEBUG]  Log server port 33088 is in use, testing if it's the app we're building
+[DEBUG]  The log server port is being used by the app being built, continuing
 [DEBUG]  Titanium SDK iOS directory: /Users/xdeveloper/Library/Application Support/Titanium/mobilesdk/osx/6.2.3.v20170921145618/iphone
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
@@ -151,8 +152,8 @@ Command
 [INFO]   ----- MVC GENERATION -----
 [INFO]   [global style] loading from cache...
 [INFO]   [models/mapData.js] model processing...
+[INFO]   [models/packageData.js] model processing...
 [INFO]   [models/place.js] model processing...
-[INFO]   [models/webNews.js] model processing...
 [INFO]   [detail.xml] view processing...
 [INFO]     style:      "detail.tss"
 [INFO]     view:       "detail.xml"
@@ -181,6 +182,13 @@ Command
 [INFO]     created:    "Resources/iphone/alloy/controllers/login.js"
 [DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/login.js.map"
 [INFO]     created:     "Resources/iphone/alloy/styles/login.js"
+[INFO]   [package.xml] view processing...
+[INFO]     style:      "package.tss"
+[INFO]     view:       "package.xml"
+[INFO]     controller: "package.js"
+[INFO]     created:    "Resources/iphone/alloy/controllers/package.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/package.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/package.js"
 [INFO]   [priceSelect.xml] view processing...
 [INFO]     style:      "priceSelect.tss"
 [INFO]     view:       "priceSelect.xml"
@@ -195,8 +203,8 @@ Command
 [INFO]   - alloy/moment.js
 [INFO]   - iphone/alloy.js
 [INFO]   - iphone/alloy/models/MapData.js
+[INFO]   - iphone/alloy/models/PackageData.js
 [INFO]   - iphone/alloy/models/Place.js
-[INFO]   - iphone/alloy/models/WebNews.js
 [INFO]   - iphone/alloy/sync/localStorage.js
 [INFO]   - iphone/alloy/sync/properties.js
 [INFO]   - iphone/alloy/sync/sql.js
@@ -204,9 +212,9 @@ Command
 [TRACE]   
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [0.70429s] TOTAL
+[TRACE]  [0.82449s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 0.70429s
+[INFO]   Alloy compiled in 0.82449s
 [INFO]   Alloy compiler completed successfully
 [TRACE]  Starting third-party framework detection
 [TRACE]  Scanning /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/platform/ios for frameworks
@@ -327,14 +335,16 @@ Command
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/index.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/index.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/jumpMap.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/jumpMap.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/login.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/login.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/package.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/package.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/controllers/priceSelect.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/controllers/priceSelect.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/models/MapData.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/MapData.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/models/PackageData.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/PackageData.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/models/Place.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/Place.js
-[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/models/WebNews.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/models/WebNews.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/detail.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/detail.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/index.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/index.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/jumpMap.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/jumpMap.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/login.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/login.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/package.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/package.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/styles/priceSelect.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/styles/priceSelect.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/sync/localStorage.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/localStorage.js
 [DEBUG]  Overwriting /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/Resources/iphone/alloy/sync/properties.js => /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/alloy/sync/properties.js
@@ -357,7 +367,6 @@ Command
 [TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/modules/ui/images/photoDefault.png
 [TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/defines.h
 [INFO]   Removing files
-[DEBUG]  Removing /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/DefaultIcon.png
 [DEBUG]  Removing empty directories
 [INFO]   Invoking xcodebuild
 [DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Funfares -configuration Debug -scheme Funfares -derivedDataPath /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/DerivedData OBJROOT=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products -destination "platform=iOS Simulator,id=51FDA3EF-2969-4394-BC58-7CDA4F8585CD,OS=10.3" ONLY_ACTIVE_ARCH=1
@@ -431,14 +440,14 @@ Command
 [TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app: replacing existing signature
 [TRACE]  
 [TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 7s 573ms
+[INFO]   Finished building the application in 7s 678ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 7 Plus
 [TRACE]  [ioslib]   UDID    = 51FDA3EF-2969-4394-BC58-7CDA4F8585CD
 [TRACE]  [ioslib]   iOS     = 10.3.1
 [TRACE]  [ioslib] Autoselected Xcode: 8.3.3
 [TRACE]  [ioslib] Checking if simulator /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator is already running
-[TRACE]  [ioslib] Simulator is running (pid 1960)
+[TRACE]  [ioslib] Simulator is running (pid 1950)
 [TRACE]  [ioslib] Simulator is booted!
 [TRACE]  [ioslib] iPhone 7 Plus Simulator already running with the correct udid
 [TRACE]  [ioslib] Tailing iPhone 7 Plus Simulator system log: /Users/xdeveloper/Library/Logs/CoreSimulator/51FDA3EF-2969-4394-BC58-7CDA4F8585CD/system.log

@@ -3,15 +3,17 @@ exports.definition = {
 	config : {
     "columns": {
         "id":"INTEGER PRIMARY KEY",
-        "name":"text", 
-        "image":"text"
+        "city":"TEXT",
+        "class":"TEXT",
+
+        "travelDates":"TEXT"
     },
     
-    "URL": "https://api.myjson.com/bins/xeerx", 
+    "URL": 'http://localhost:1337/order/getOrderListAJAX', 
 
     "adapter" : {
         "type" : "sqlrest",
-        "collection_name" : "webNews", 
+        "collection_name" : "packageData", 
         "idAttribute" : "id",
     },
     
@@ -22,7 +24,6 @@ exports.definition = {
 		_.extend(Model.prototype, {
 			// extended functions and properties go here
 		});
-
 		return Model;
 	},
 	extendCollection: function(Collection) {
@@ -43,4 +44,5 @@ exports.definition = {
 		return Collection;
 	}
 };
+
 

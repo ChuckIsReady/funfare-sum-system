@@ -30,19 +30,19 @@ function Controller() {
 
 	$.__views.win = Ti.UI.createWindow({ title: "Map", navBarHidden: false, id: "win" });
 	$.__views.win && $.addTopLevelView($.__views.win);
-	var __alloyId76 = [];
-	$.__views.__alloyId77 = require("ti.map").createAnnotation({ latitude: NaN, longitude: NaN, id: "__alloyId77" });
-	__alloyId76.push($.__views.__alloyId77);
-	$.__views.mapView = (require("ti.map").createView || Ti.UI.createView)({ region: { latitude: 22.27856, longitude: 114.165228, latitudeDelta: 0.05, longitudeDelta: 0.05 }, annotations: __alloyId76, id: "mapView", userLocation: true });
+	var __alloyId72 = [];
+	$.__views.__alloyId73 = require("ti.map").createAnnotation({ latitude: NaN, longitude: NaN, id: "__alloyId73" });
+	__alloyId72.push($.__views.__alloyId73);
+	$.__views.mapView = (require("ti.map").createView || Ti.UI.createView)({ region: { latitude: 22.27856, longitude: 114.165228, latitudeDelta: 0.05, longitudeDelta: 0.05 }, annotations: __alloyId72, id: "mapView", userLocation: true });
 	$.__views.win.add($.__views.mapView);
-	var __alloyId79 = Alloy.Collections['mapData'] || mapData;function __alloyId80(e) {
+	var __alloyId75 = Alloy.Collections['mapData'] || mapData;function __alloyId76(e) {
 		if (e && e.fromAdapter) {
 			return;
-		}var opts = __alloyId80.opts || {};var models = mapfilter(__alloyId79);var len = models.length;for (var i = 0; i < len; i++) {
-			var __alloyId78 = models[i];__alloyId76.push(require('ti.map').createAnnotation(getMapPoint(__alloyId78)));
-		}$.__views.mapView.annotations = __alloyId76;
-	};__alloyId79.on('fetch destroy change add remove reset', __alloyId80);exports.destroy = function () {
-		__alloyId79 && __alloyId79.off('fetch destroy change add remove reset', __alloyId80);
+		}var opts = __alloyId76.opts || {};var models = mapfilter(__alloyId75);var len = models.length;for (var i = 0; i < len; i++) {
+			var __alloyId74 = models[i];__alloyId72.push(require('ti.map').createAnnotation(getMapPoint(__alloyId74)));
+		}$.__views.mapView.annotations = __alloyId72;
+	};__alloyId75.on('fetch destroy change add remove reset', __alloyId76);exports.destroy = function () {
+		__alloyId75 && __alloyId75.off('fetch destroy change add remove reset', __alloyId76);
 	};
 
 	_.extend($, $.__views);

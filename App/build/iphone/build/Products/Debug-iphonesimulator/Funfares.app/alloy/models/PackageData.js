@@ -7,15 +7,17 @@ exports.definition = {
 	config: {
 		"columns": {
 			"id": "INTEGER PRIMARY KEY",
-			"name": "text",
-			"image": "text"
+			"city": "TEXT",
+			"class": "TEXT",
+
+			"travelDates": "TEXT"
 		},
 
-		"URL": "https://api.myjson.com/bins/xeerx",
+		"URL": 'http://localhost:1337/order/getOrderListAJAX',
 
 		"adapter": {
 			"type": "sqlrest",
-			"collection_name": "webNews",
+			"collection_name": "packageData",
 			"idAttribute": "id"
 		},
 
@@ -23,7 +25,6 @@ exports.definition = {
 	},
 	extendModel: function (Model) {
 		_.extend(Model.prototype, {});
-
 		return Model;
 	},
 	extendCollection: function (Collection) {
@@ -33,9 +34,9 @@ exports.definition = {
 	}
 };
 
-model = Alloy.M('webNews', exports.definition, []);
+model = Alloy.M('packageData', exports.definition, []);
 
-collection = Alloy.C('webNews', exports.definition, model);
+collection = Alloy.C('packageData', exports.definition, model);
 
 exports.Model = model;
 exports.Collection = collection;

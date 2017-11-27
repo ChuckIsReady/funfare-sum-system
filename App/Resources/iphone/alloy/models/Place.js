@@ -18,7 +18,7 @@ exports.definition = {
 			"travelDatesEnd": "TEXT"
 		},
 
-		"URL": "https://api.myjson.com/bins/l14dr",
+		"URL": "https://api.myjson.com/bins/wazq3",
 
 		"adapter": {
 			"type": "sqlrest",
