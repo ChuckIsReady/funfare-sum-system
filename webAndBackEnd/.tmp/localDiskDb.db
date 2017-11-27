@@ -12,9 +12,9 @@
         "travelDatesStart": "2016-11-1T16:00:00.000Z",
         "travelDatesEnd": "2017-11-11T16:00:00.000Z",
         "age": 18,
-        "createdAt": "2017-11-27T12:05:12.502Z",
-        "updatedAt": "2017-11-27T12:05:12.502Z",
-        "id": 121
+        "createdAt": "2017-11-27T13:27:40.178Z",
+        "updatedAt": "2017-11-27T13:27:40.178Z",
+        "id": 133
       },
       {
         "region": "East Asia",
@@ -27,9 +27,9 @@
         "travelDatesStart": "2017-3-1T16:00:00.000Z",
         "travelDatesEnd": "2018-11-11T16:00:00.000Z",
         "age": 18,
-        "createdAt": "2017-11-27T12:05:12.504Z",
-        "updatedAt": "2017-11-27T12:05:12.504Z",
-        "id": 122
+        "createdAt": "2017-11-27T13:27:40.180Z",
+        "updatedAt": "2017-11-27T13:27:40.180Z",
+        "id": 134
       },
       {
         "region": "South-east Asia",
@@ -42,9 +42,9 @@
         "travelDatesStart": "2017-10-1T16:00:00.000Z",
         "travelDatesEnd": "2017-10-11T16:00:00.000Z",
         "age": 18,
-        "createdAt": "2017-11-27T12:05:12.505Z",
-        "updatedAt": "2017-11-27T12:05:12.505Z",
-        "id": 123
+        "createdAt": "2017-11-27T13:27:40.182Z",
+        "updatedAt": "2017-11-27T13:27:40.182Z",
+        "id": 135
       },
       {
         "region": "South-east Asia",
@@ -57,9 +57,9 @@
         "travelDatesStart": "2017-9-1T16:00:00.000Z",
         "travelDatesEnd": "2017-9-11T16:00:00.000Z",
         "age": 18,
-        "createdAt": "2017-11-27T12:05:12.506Z",
-        "updatedAt": "2017-11-27T12:05:12.506Z",
-        "id": 124
+        "createdAt": "2017-11-27T13:27:40.182Z",
+        "updatedAt": "2017-11-27T13:27:40.182Z",
+        "id": 136
       },
       {
         "region": "Americas",
@@ -72,9 +72,9 @@
         "travelDatesStart": "2017-8-1T16:00:00.000Z",
         "travelDatesEnd": "2017-8-11T16:00:00.000Z",
         "age": 18,
-        "createdAt": "2017-11-27T12:05:12.507Z",
-        "updatedAt": "2017-11-27T12:05:12.507Z",
-        "id": 125
+        "createdAt": "2017-11-27T13:27:40.183Z",
+        "updatedAt": "2017-11-27T13:27:40.183Z",
+        "id": 137
       },
       {
         "region": "Americas",
@@ -87,67 +87,26 @@
         "travelDatesStart": "2017-6-1T16:00:00.000Z",
         "travelDatesEnd": "2017-6-11T16:00:00.000Z",
         "age": 18,
-        "createdAt": "2017-11-27T12:05:12.508Z",
-        "updatedAt": "2017-11-27T12:05:12.508Z",
-        "id": 126
+        "createdAt": "2017-11-27T13:27:40.184Z",
+        "updatedAt": "2017-11-27T13:27:40.184Z",
+        "id": 138
       }
     ],
-    "order": [
-      {
-        "createdAt": "2017-11-27T12:08:55.121Z",
-        "updatedAt": "2017-11-27T12:08:55.126Z",
-        "id": 17,
-        "class": "Economy",
-        "city": "Osaka",
-        "username": "Chuck",
-        "pid": "1",
-        "travelDates": "2016/11/1 - 2017/11/11"
-      },
-      {
-        "createdAt": "2017-11-27T12:28:18.895Z",
-        "updatedAt": "2017-11-27T12:28:18.900Z",
-        "id": 18,
-        "class": "Economy",
-        "city": "Osaka",
-        "username": "Chuck",
-        "pid": "1",
-        "travelDates": "2016/11/1 - 2017/11/11"
-      },
-      {
-        "createdAt": "2017-11-27T12:55:09.037Z",
-        "updatedAt": "2017-11-27T12:55:09.042Z",
-        "id": 20,
-        "class": "Economy",
-        "city": "Osaka",
-        "username": "Chuck",
-        "pid": "1",
-        "travelDates": "2016/11/1 - 2017/11/11"
-      },
-      {
-        "createdAt": "2017-11-27T12:59:50.710Z",
-        "updatedAt": "2017-11-27T12:59:50.715Z",
-        "id": 21,
-        "class": "Economy",
-        "city": "Osaka",
-        "username": "Chuck",
-        "pid": "1",
-        "travelDates": "2016/11/1 - 2017/11/11"
-      }
-    ],
+    "order": [],
     "user": [
       {
         "username": "admin",
-        "password": "$2a$10$yTJhde9kjRYDByCoRv.nbu17P9bXqRw07uqnDrBzuhAE54Nf5jRN6",
+        "password": "$2a$10$6GFOCBGWk/t4vVot2pT4/.7SMjZdRWdYnaaLuVnI2wmOCjkQmeCkW",
         "id": 1,
-        "createdAt": "2017-11-27T12:05:12.509Z",
-        "updatedAt": "2017-11-27T12:05:12.518Z"
+        "createdAt": "2017-11-27T13:27:40.184Z",
+        "updatedAt": "2017-11-27T13:27:40.195Z"
       },
       {
         "username": "Chuck",
-        "password": "$2a$10$yTJhde9kjRYDByCoRv.nbu17P9bXqRw07uqnDrBzuhAE54Nf5jRN6",
+        "password": "$2a$10$6GFOCBGWk/t4vVot2pT4/.7SMjZdRWdYnaaLuVnI2wmOCjkQmeCkW",
         "id": 2,
-        "createdAt": "2017-11-27T12:05:12.509Z",
-        "updatedAt": "2017-11-27T12:05:12.521Z"
+        "createdAt": "2017-11-27T13:27:40.185Z",
+        "updatedAt": "2017-11-27T13:27:40.198Z"
       }
     ],
     "funfare_worksfor__user_supervises": []
@@ -236,7 +195,7 @@
   },
   "counters": {
     "funfare": {
-      "id": 126
+      "id": 138
     },
     "order": {
       "id": 21
