@@ -81,10 +81,20 @@ delete: function (req, res) {
 getbuyer:function (req, res) {
     // body...
     Order.find() .where({pid:{'contains' :req.params.id}}).exec( function(err, model) {
-        if (model != null)
-            return res.json(model);
+        if (model != null){
+            var nameList = [];
+            model.forEach(function(element) {
+                console.log(element);
+                nameList.push(element.username);
+            });
+            if(nameList.length==0)
+            return res.view('message', {'message': "No one order this!",'username':req.session.username});
+            else
+            return res.view('nameList', {'nameList': nameList,'username':req.session.username});
+        }
+            
         else
-            return res.send('No one order this!');
+        return res.view('message', {'message': "No one order this!",'username':req.session.username});
     }); 
 },
     // json function

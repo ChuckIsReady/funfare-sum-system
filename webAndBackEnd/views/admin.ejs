@@ -14,7 +14,7 @@
 					<td class="destination"><%= model.city%></td>bought users
 					<td class="update"><a href="/funfare/update/<%= model.id%>" class="update-link">Update</a></td>
 					<td class="delete"><a  href="#" class="delete-link" onclick="deleteFunfare('<%= model.id %>')">Delete</a></td>
-					<td class="update"><a href="#" onclick="getBuyer('<%= model.id %>')" class="update-link">Bought Users</a></td>
+					<td class="update"><a href="/order/getbuyer/<%= model.id%>"  class="update-link">Bought Users</a></td>
 				</tr>
 					<% }); %>
 			</table>
