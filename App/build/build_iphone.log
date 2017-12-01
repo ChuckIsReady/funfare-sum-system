@@ -1,5 +1,5 @@
 
-11/27/2017, 8:59:20 PM
+12/1/2017, 4:27:10 PM
 
 Operating System
   Name                        = Mac OS X
@@ -212,9 +212,9 @@ Command
 [TRACE]   
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [0.71015s] TOTAL
+[TRACE]  [0.72981s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 0.71015s
+[INFO]   Alloy compiled in 0.72981s
 [INFO]   Alloy compiler completed successfully
 [TRACE]  Starting third-party framework detection
 [TRACE]  Scanning /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/platform/ios for frameworks
@@ -367,6 +367,7 @@ Command
 [TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app/modules/ui/images/photoDefault.png
 [TRACE]  No change, skipping /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/Classes/defines.h
 [INFO]   Removing files
+[DEBUG]  Removing /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/DefaultIcon.png
 [DEBUG]  Removing empty directories
 [INFO]   Invoking xcodebuild
 [DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Funfares -configuration Debug -scheme Funfares -derivedDataPath /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/DerivedData OBJROOT=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products -destination "platform=iOS Simulator,id=51FDA3EF-2969-4394-BC58-7CDA4F8585CD,OS=10.3" ONLY_ACTIVE_ARCH=1
@@ -440,14 +441,14 @@ Command
 [TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app: replacing existing signature
 [TRACE]  
 [TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 7s 427ms
+[INFO]   Finished building the application in 8s 156ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 7 Plus
 [TRACE]  [ioslib]   UDID    = 51FDA3EF-2969-4394-BC58-7CDA4F8585CD
 [TRACE]  [ioslib]   iOS     = 10.3.1
 [TRACE]  [ioslib] Autoselected Xcode: 8.3.3
 [TRACE]  [ioslib] Checking if simulator /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator is already running
-[TRACE]  [ioslib] Simulator is running (pid 1950)
+[TRACE]  [ioslib] Simulator is running (pid 2150)
 [TRACE]  [ioslib] Simulator is booted!
 [TRACE]  [ioslib] iPhone 7 Plus Simulator already running with the correct udid
 [TRACE]  [ioslib] Tailing iPhone 7 Plus Simulator system log: /Users/xdeveloper/Library/Logs/CoreSimulator/51FDA3EF-2969-4394-BC58-7CDA4F8585CD/system.log

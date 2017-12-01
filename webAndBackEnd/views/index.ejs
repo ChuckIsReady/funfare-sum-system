@@ -8,7 +8,11 @@
 				<div class="item-title"><a href="/funfare/detail/<%=model.id%>"><%=model.city%></a></div>
 				<div class="item-describe"><%=model.class %> class, $<%=model.price%></div>
 				<div class="item-date ">Valid till:<%=new Date(model.dataValidTill.split("T")[0]).Format("MM/dd/yyyy")%>.</div>
+				<% if(model.overallQuota<1) {%>
+				<div class="item-state text-danger">Slod out</div>
+						<%} else {%>	
 				<div class="item-state">Quota left:<%=model.overallQuota%></div>
+				<%}%>
 				<div class="item-priod">
 					<%=new Date(model.travelDatesStart.split("T")[0]).Format("MM/dd/yyyy")%>
 					- <%=new Date(model.travelDatesEnd.split("T")[0]).Format("MM/dd/yyyy")%>

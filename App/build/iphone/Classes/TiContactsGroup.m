@@ -1,10 +1,8 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #ifdef USE_TI_CONTACTS
 #import "TiContactsGroup.h"
@@ -353,7 +351,7 @@
 {
 	CNSaveRequest *saveRequest = [[CNSaveRequest alloc] init];
 	[saveRequest deleteGroup: [[group mutableCopy] autorelease]];
-	// Do not be tempted to autorelease here. https://github.com/appcelerator/_funfares_mobile/commit/a0d4a50d51f1afe85f92cf9e0d2ce8cca08fcf2f
+	// Do not be tempted to autorelease here. https://github.com/appcelerator/titanium_mobile/commit/a0d4a50d51f1afe85f92cf9e0d2ce8cca08fcf2f
 	// It will be released in ContactsModule.m line 315 in (void)save
 	return saveRequest;
 }
@@ -362,7 +360,7 @@
 {
 	CNSaveRequest *saveRequest = [[CNSaveRequest alloc] init];
 	[saveRequest addGroup:group toContainerWithIdentifier:containerIdentifier];
-	// Do not be tempted to autorelease here. https://github.com/appcelerator/_funfares_mobile/commit/a0d4a50d51f1afe85f92cf9e0d2ce8cca08fcf2f
+	// Do not be tempted to autorelease here. https://github.com/appcelerator/titanium_mobile/commit/a0d4a50d51f1afe85f92cf9e0d2ce8cca08fcf2f
 	// It will be released in ContactsModule.m line 315 in (void)save
 	return saveRequest;
 }

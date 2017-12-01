@@ -131,13 +131,13 @@ static void listeningCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBu
 #if TARGET_IPHONE_SIMULATOR
 	format.mSampleRate = 44100.0;
 #else
-    /*Funfares Modification begin*/
+    /*Titanium Modification begin*/
 //	UInt32 ioDataSize = sizeof(sampleRate);
 //	AudioSessionGetProperty(kAudioSessionProperty_CurrentHardwareSampleRate, &ioDataSize, &sampleRate);
 //	format.mSampleRate = sampleRate;
     sampleRate = [[AVAudioSession sharedInstance] sampleRate];
     format.mSampleRate = sampleRate;
-    /*Funfares Modifications End*/
+    /*Titanium Modifications End*/
 #endif
 	format.mFormatID = kAudioFormatLinearPCM;
 	format.mFormatFlags = kAudioFormatFlagIsSignedInteger | kAudioFormatFlagIsPacked;

@@ -106,9 +106,8 @@ function Controller() {
       var xhr = Ti.Network.createHTTPClient();
       xhr.onload = function (e) {
         var res = JSON.parse(this.responseText);
-
         if (res.msg == "Order Successfully") {
-          alert("Order Successfully!");
+          alert("Package Successfully Booked!");
         } else alert("Order Error!");
       };
       xhr.open('POST', Alloy.Globals.host + '/order/createAjax');

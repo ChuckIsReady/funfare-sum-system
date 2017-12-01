@@ -1,10 +1,8 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #ifdef USE_TI_CONTACTS
 
@@ -953,7 +951,7 @@ static NSDictionary* iOS9propertyKeys;
 {
 	CNSaveRequest *saveRequest = [[CNSaveRequest alloc] init];
 	[saveRequest deleteContact:person];
-	// Do not be tempted to autorelease here. https://github.com/appcelerator/_funfares_mobile/pull/7464/files
+	// Do not be tempted to autorelease here. https://github.com/appcelerator/titanium_mobile/pull/7464/files
 	// It will be released in ContactsModule.m line 315 in (void)save
 	return saveRequest;
 }
@@ -962,7 +960,7 @@ static NSDictionary* iOS9propertyKeys;
 {
 	CNSaveRequest *saveRequest = [[CNSaveRequest alloc] init];
 	[saveRequest addContact:person toContainerWithIdentifier:containerIdentifier];
-	// Do not be tempted to autorelease here. https://github.com/appcelerator/_funfares_mobile/pull/7464/files
+	// Do not be tempted to autorelease here. https://github.com/appcelerator/titanium_mobile/pull/7464/files
 	// It will be released in ContactsModule.m line 315 in (void)save
 	return saveRequest;
 }
@@ -971,7 +969,7 @@ static NSDictionary* iOS9propertyKeys;
 {
 	CNSaveRequest *saveRequest = [[CNSaveRequest alloc] init];
 	[saveRequest addMember:person toGroup:group];
-	// Do not be tempted to autorelease here. https://github.com/appcelerator/_funfares_mobile/pull/7464/files
+	// Do not be tempted to autorelease here. https://github.com/appcelerator/titanium_mobile/pull/7464/files
 	// It will be released in ContactsGroup.m line 288 in (void)add
 	return saveRequest;
 }
@@ -980,7 +978,7 @@ static NSDictionary* iOS9propertyKeys;
 {
 	CNSaveRequest *saveRequest = [[CNSaveRequest alloc] init];
 	[saveRequest removeMember:person fromGroup:group];
-	// Do not be tempted to autorelease here. https://github.com/appcelerator/_funfares_mobile/pull/7464/files
+	// Do not be tempted to autorelease here. https://github.com/appcelerator/titanium_mobile/pull/7464/files
 	// It will be released in ContactsGroup.m line 330 in (void)remove
 	return saveRequest;
 }

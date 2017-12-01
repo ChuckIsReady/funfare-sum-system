@@ -19,8 +19,13 @@
 						<input name="class" type="hidden" value="<%= funfare.class %>">
 						<input name="travelDates" type="hidden" value="<%=new Date(funfare.travelDatesStart.split("T")[0]).Format("MM/dd/yyyy")%> - <%=new Date(funfare.travelDatesEnd.split("T")[0]).Format("MM/dd/yyyy")%>">
 					<input name="username" type="hidden" value="<%= username %>">
-						<button type="submit" class="btn btn-primary">Buy this package</button>
+							<% if(funfare.overallQuota<1) {%>
+						<button type="submit" class="btn btn-outline-dark" disabled="disabled" style="margin: 15px; width: 200px;">Slod out</button>	
+							<%} else {%>	
+						<button type="submit" class="btn btn-primary" style="margin: 15px; width: 200px;">Buy this package</button>
+							<%}%>
 						</form>
+
 						<%}%>
 						</ul>
 						

@@ -49,9 +49,8 @@ if(e.index==0){
         var xhr = Ti.Network.createHTTPClient();
         xhr.onload = function(e) {
             var res = JSON.parse(this.responseText)
-            // alert(res);
             if (res.msg == "Order Successfully"){
-                alert("Order Successfully!")
+                alert("Package Successfully Booked!")
             }
             else
             alert("Order Error!");

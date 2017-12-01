@@ -60,7 +60,7 @@ logout: function(req, res) {
     }
     else{
         req.session.destroy(function(err) {
-            return res.view('message', {'message': "Log out successfully.",'username':req.session.username});
+            return res.view('message', {'message': "Log out successfully.",'username':""});
          });
     }
 
