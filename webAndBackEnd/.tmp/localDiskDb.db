@@ -75,37 +75,140 @@
         "createdAt": "2017-12-02T07:07:10.974Z",
         "updatedAt": "2017-12-02T07:07:10.974Z",
         "id": 203
+      },
+      {
+        "region": "East Asia",
+        "city": "Osaka",
+        "class": "Economy",
+        "price": "6400",
+        "imageUrl": "/img/1.jpg",
+        "dataValidTill": "2016-10-8T16:00:00.000Z",
+        "overallQuota": "100",
+        "travelDatesStart": "2016-11-1T16:00:00.000Z",
+        "travelDatesEnd": "2017-11-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-12-02T09:42:14.984Z",
+        "updatedAt": "2017-12-02T09:42:14.984Z",
+        "id": 204
+      },
+      {
+        "region": "East Asia",
+        "city": "Seoul",
+        "class": "Economy",
+        "price": "7500",
+        "imageUrl": "/img/2.jpg",
+        "dataValidTill": "2016-10-10T16:00:00.000Z",
+        "overallQuota": "0",
+        "travelDatesStart": "2017-3-1T16:00:00.000Z",
+        "travelDatesEnd": "2018-11-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-12-02T09:42:14.985Z",
+        "updatedAt": "2017-12-02T09:42:14.985Z",
+        "id": 205
+      },
+      {
+        "region": "South-east Asia",
+        "city": "Cebu",
+        "class": "Business",
+        "price": "9500",
+        "imageUrl": "/img/3.jpg",
+        "dataValidTill": "2016-9-10T16:00:00.000Z",
+        "overallQuota": "1250",
+        "travelDatesStart": "2017-10-1T16:00:00.000Z",
+        "travelDatesEnd": "2017-10-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-12-02T09:42:14.987Z",
+        "updatedAt": "2017-12-02T09:42:14.987Z",
+        "id": 206
+      },
+      {
+        "region": "South-east Asia",
+        "city": "Singapore",
+        "class": "Business",
+        "price": "3900",
+        "imageUrl": "/img/4.jpg",
+        "dataValidTill": "2016-8-10T16:00:00.000Z",
+        "overallQuota": "50",
+        "travelDatesStart": "2017-9-1T16:00:00.000Z",
+        "travelDatesEnd": "2017-9-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-12-02T09:42:14.988Z",
+        "updatedAt": "2017-12-02T09:42:14.988Z",
+        "id": 207
+      },
+      {
+        "region": "Americas",
+        "city": "Los Angeles",
+        "class": "Business",
+        "price": "9880",
+        "imageUrl": "/img/5.jpg",
+        "dataValidTill": "2016-7-10T16:00:00.000Z",
+        "overallQuota": "120",
+        "travelDatesStart": "2017-8-1T16:00:00.000Z",
+        "travelDatesEnd": "2017-8-11T16:00:00.000Z",
+        "age": 18,
+        "createdAt": "2017-12-02T09:42:14.989Z",
+        "updatedAt": "2017-12-02T09:42:14.989Z",
+        "id": 208
       }
     ],
     "order": [],
     "user": [
       {
         "username": "admin",
-        "password": "$2a$10$C6RykVMakDKXjLulVs9y8eFOud8W5JXZ/AQx/9vYcGTafOrspSmvC",
+        "password": "$2a$10$S9snpUV/aJkGfWdPbu0qsOcaTrBLzqXtBaMyKyTpCB6kuBhRj6tlu",
         "id": 1,
-        "createdAt": "2017-12-02T07:07:10.974Z",
-        "updatedAt": "2017-12-02T07:07:10.985Z"
+        "createdAt": "2017-12-02T09:42:14.989Z",
+        "updatedAt": "2017-12-02T09:42:15.002Z"
       },
       {
         "username": "Chuck",
-        "password": "$2a$10$C6RykVMakDKXjLulVs9y8eFOud8W5JXZ/AQx/9vYcGTafOrspSmvC",
+        "password": "$2a$10$S9snpUV/aJkGfWdPbu0qsOcaTrBLzqXtBaMyKyTpCB6kuBhRj6tlu",
         "id": 2,
-        "createdAt": "2017-12-02T07:07:10.975Z",
-        "updatedAt": "2017-12-02T07:07:10.988Z"
+        "createdAt": "2017-12-02T09:42:14.990Z",
+        "updatedAt": "2017-12-02T09:42:15.006Z"
       },
       {
         "username": "Alen",
-        "password": "$2a$10$C6RykVMakDKXjLulVs9y8eFOud8W5JXZ/AQx/9vYcGTafOrspSmvC",
+        "password": "$2a$10$S9snpUV/aJkGfWdPbu0qsOcaTrBLzqXtBaMyKyTpCB6kuBhRj6tlu",
         "id": 3,
-        "createdAt": "2017-12-02T07:07:10.975Z",
-        "updatedAt": "2017-12-02T07:07:10.989Z"
+        "createdAt": "2017-12-02T09:42:14.992Z",
+        "updatedAt": "2017-12-02T09:42:15.009Z"
       },
       {
         "username": "Mike",
-        "password": "$2a$10$C6RykVMakDKXjLulVs9y8eFOud8W5JXZ/AQx/9vYcGTafOrspSmvC",
+        "password": "$2a$10$S9snpUV/aJkGfWdPbu0qsOcaTrBLzqXtBaMyKyTpCB6kuBhRj6tlu",
         "id": 4,
-        "createdAt": "2017-12-02T07:07:10.976Z",
-        "updatedAt": "2017-12-02T07:07:10.990Z"
+        "createdAt": "2017-12-02T09:42:14.993Z",
+        "updatedAt": "2017-12-02T09:42:15.012Z"
+      },
+      {
+        "username": "admin",
+        "password": "$2a$10$S9snpUV/aJkGfWdPbu0qsOcaTrBLzqXtBaMyKyTpCB6kuBhRj6tlu",
+        "id": 1,
+        "createdAt": "2017-12-02T09:42:14.989Z",
+        "updatedAt": "2017-12-02T09:42:15.002Z"
+      },
+      {
+        "username": "Chuck",
+        "password": "$2a$10$S9snpUV/aJkGfWdPbu0qsOcaTrBLzqXtBaMyKyTpCB6kuBhRj6tlu",
+        "id": 2,
+        "createdAt": "2017-12-02T09:42:14.990Z",
+        "updatedAt": "2017-12-02T09:42:15.006Z"
+      },
+      {
+        "username": "Alen",
+        "password": "$2a$10$S9snpUV/aJkGfWdPbu0qsOcaTrBLzqXtBaMyKyTpCB6kuBhRj6tlu",
+        "id": 3,
+        "createdAt": "2017-12-02T09:42:14.992Z",
+        "updatedAt": "2017-12-02T09:42:15.009Z"
+      },
+      {
+        "username": "Mike",
+        "password": "$2a$10$S9snpUV/aJkGfWdPbu0qsOcaTrBLzqXtBaMyKyTpCB6kuBhRj6tlu",
+        "id": 4,
+        "createdAt": "2017-12-02T09:42:14.993Z",
+        "updatedAt": "2017-12-02T09:42:15.012Z"
       }
     ],
     "funfare_worksfor__user_supervises": []
@@ -194,7 +297,7 @@
   },
   "counters": {
     "funfare": {
-      "id": 203
+      "id": 208
     },
     "order": {
       "id": 34
