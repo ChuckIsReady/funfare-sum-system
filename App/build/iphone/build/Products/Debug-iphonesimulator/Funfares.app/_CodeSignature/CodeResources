@@ -58,7 +58,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		kDhKGjS6bMk6StFq5Qx9fAIIG0I=
+		wX9ATnt47Uixjh+enWn8rUf54pU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		zN+cAv5HZWPGOeAiqTdMKXf0/tA=
+		yUzYLBOJNFOG+HybnB8dMmSVLVA=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		H0OwFIbnFEMaHJ6sVEQkFovDEf4=
+		LON3KslOa7oWup2L80rIs3RWrmY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>alloy/models/Place.js</key>
 		<data>
-		QNW79wI4On9pexNGst8/tvFZgg4=
+		4Gz5Xf5u0QkCDCyUPtM/lokC4DY=
 		</data>
 		<key>alloy/moment.js</key>
 		<data>
@@ -470,11 +470,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kDhKGjS6bMk6StFq5Qx9fAIIG0I=
+			wX9ATnt47Uixjh+enWn8rUf54pU=
 			</data>
 			<key>hash2</key>
 			<data>
-			nbzuH1OHLMcHMnWB5nSh4F048j3IfXf7ZhaSZoZYkcQ=
+			jhaETLVKQ5tvXb/DFRIWA3L3BKhUZ9hP5B5WH9mAkXE=
 			</data>
 		</dict>
 		<key>KS_nav_ui.png</key>
@@ -602,11 +602,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zN+cAv5HZWPGOeAiqTdMKXf0/tA=
+			yUzYLBOJNFOG+HybnB8dMmSVLVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			je1vTsZPD+8+CJlyKb+V0IhIZlM7v56KWm8E0Uas2Yc=
+			+XynHpxgLBY0ZwDoewLgrwnuNq+NCl6KgrIVkj93Qk8=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -624,11 +624,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H0OwFIbnFEMaHJ6sVEQkFovDEf4=
+			LON3KslOa7oWup2L80rIs3RWrmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lb9mJWBhY4zUqHowyWmYaElE5Ple8iJE5cgGcJKizxo=
+			JZDtmTpLV9LlvSf5H7QHgBG6tJ7j8kx7K9wZSqw3Yuo=
 			</data>
 		</dict>
 		<key>Visa.sqlite</key>
@@ -811,11 +811,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QNW79wI4On9pexNGst8/tvFZgg4=
+			4Gz5Xf5u0QkCDCyUPtM/lokC4DY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sk/GAzf//owKFXpVB1rZI9+hbFVYsBqyKNzpm+UoSMk=
+			tBXGZcL9eSKO1mv/NwMgQDFwSMVp2gZ/Pq6CAYxFdiE=
 			</data>
 		</dict>
 		<key>alloy/moment.js</key>

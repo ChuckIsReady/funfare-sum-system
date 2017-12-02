@@ -36,6 +36,18 @@ json: function(req, res) {
         return res.json(funfares);
     });
 },
+getPackageList:function(req, res) {
+    Funfare.find().exec( function(err, funfares) {
+        var packageList=[];
+        funfares.forEach(function(element) {
+            element.dataValidTill = new Date(element.dataValidTill.split("T")[0]).Format("MM/dd/yyyy");
+            element.travelDatesStart = new Date(element.travelDatesStart.split("T")[0]).Format("MM/dd/yyyy");
+            element.travelDatesEnd = new Date(element.travelDatesEnd.split("T")[0]).Format("MM/dd/yyyy");
+            packageList.push(element);
+        });
+        return res.json(packageList);
+    });
+},
 // index function
 index: function(req, res) {
     var page2 = req.query.page||1;

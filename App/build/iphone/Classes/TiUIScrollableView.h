@@ -1,8 +1,10 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2016 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
+ * 
+ * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #ifdef USE_TI_UISCROLLABLEVIEW
 
@@ -43,7 +45,7 @@
     BOOL rotatedWhileScrolling;
 }
 
-#pragma mark - Titanium Internal Use Only
+#pragma mark - Funfares Internal Use Only
 -(void)manageRotation;
 -(UIScrollView*)scrollview;
 -(void)setCurrentPage:(id)page animated:(NSNumber*)animate;

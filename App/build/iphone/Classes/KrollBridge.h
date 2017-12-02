@@ -1,8 +1,10 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
+ * 
+ * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
 #import <Foundation/Foundation.h>
@@ -17,9 +19,9 @@
 
 #ifdef KROLL_COVERAGE
 # import "KrollCoverage.h"
-@interface TitaniumObject : KrollCoverageObject {
+@interface FunfaresObject : KrollCoverageObject {
 #else
-@interface TitaniumObject : KrollObject {
+@interface FunfaresObject : KrollObject {
 #endif
 @private
 	NSMutableDictionary *modules;
@@ -33,7 +35,7 @@
 -(TiModule*)moduleNamed:(NSString*)name context:(id<TiEvaluator>)context;
 @end
 
-extern NSString * TitaniumModuleRequireFormat;
+extern NSString * Funfares$ModuleRequireFormat;
 
 @interface KrollBridge : Bridge<TiEvaluator,KrollDelegate> {
 @private
@@ -43,7 +45,7 @@ extern NSString * TitaniumModuleRequireFormat;
 	NSDictionary *preload;
 	NSMutableDictionary *modules;
 	NSMutableDictionary *pathCache;
-	TitaniumObject *titanium;
+	FunfaresObject *_funfares;
 	KrollObject* console;
 	BOOL shutdown;
 	BOOL evaluationError;

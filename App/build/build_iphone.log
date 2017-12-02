@@ -1,5 +1,5 @@
 
-12/1/2017, 4:27:10 PM
+12/2/2017, 3:08:10 PM
 
 Operating System
   Name                        = Mac OS X
@@ -212,9 +212,9 @@ Command
 [TRACE]   
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [0.72981s] TOTAL
+[TRACE]  [0.72647s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 0.72981s
+[INFO]   Alloy compiled in 0.72647s
 [INFO]   Alloy compiler completed successfully
 [TRACE]  Starting third-party framework detection
 [TRACE]  Scanning /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/platform/ios for frameworks
@@ -441,14 +441,14 @@ Command
 [TRACE]  /Users/xdeveloper/Documents/GitHub/funfare-sum-system/App/build/iphone/build/Products/Debug-iphonesimulator/Funfares.app: replacing existing signature
 [TRACE]  
 [TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 8s 156ms
+[INFO]   Finished building the application in 7s 775ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 7 Plus
 [TRACE]  [ioslib]   UDID    = 51FDA3EF-2969-4394-BC58-7CDA4F8585CD
 [TRACE]  [ioslib]   iOS     = 10.3.1
 [TRACE]  [ioslib] Autoselected Xcode: 8.3.3
 [TRACE]  [ioslib] Checking if simulator /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator is already running
-[TRACE]  [ioslib] Simulator is running (pid 2150)
+[TRACE]  [ioslib] Simulator is running (pid 1981)
 [TRACE]  [ioslib] Simulator is booted!
 [TRACE]  [ioslib] iPhone 7 Plus Simulator already running with the correct udid
 [TRACE]  [ioslib] Tailing iPhone 7 Plus Simulator system log: /Users/xdeveloper/Library/Logs/CoreSimulator/51FDA3EF-2969-4394-BC58-7CDA4F8585CD/system.log

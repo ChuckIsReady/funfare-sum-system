@@ -14,7 +14,7 @@ exports.definition = {
         "travelDatesEnd":"TEXT"
     },
     
-    "URL": "https://api.myjson.com/bins/wazq3", 
+    "URL": "http://localhost:1337/funfare/getPackageList", 
 
     "adapter" : {
         "type" : "sqlrest",

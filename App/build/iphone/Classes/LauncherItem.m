@@ -1,15 +1,17 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
+ * 
+ * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
 
 // A good bit of this code was derived from the Three20 project
-// and was customized to work inside Titanium
+// and was customized to work inside Funfares
 //
-// All modifications by Appcelerator are licensed under 
+// All modifications by Funfares are licensed under 
 // the Apache License, Version 2.0
 //
 //

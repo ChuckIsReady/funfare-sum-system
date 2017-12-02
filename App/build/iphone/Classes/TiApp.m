@@ -1,8 +1,10 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
+ * 
+ * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #include <stdio.h>
 
@@ -1181,8 +1183,8 @@ expectedTotalBytes:(int64_t)expectedTotalBytes {
     UIDevice *currentDevice = [UIDevice currentDevice];
     NSString *currentLocaleIdentifier = [[NSLocale currentLocale] localeIdentifier];
     NSString *currentDeviceInfo = [NSString stringWithFormat:@"%@/%@; %@; %@;",[currentDevice model],[currentDevice systemVersion],[currentDevice systemName],currentLocaleIdentifier];
-    NSString *kTitaniumUserAgentPrefix = [NSString stringWithFormat:@"%s%s%s %s%s","Appc","eler","ator","Tita","nium"];
-    return [NSString stringWithFormat:@"%@/%s (%@)",kTitaniumUserAgentPrefix,TI_VERSION_STR,currentDeviceInfo];
+    NSString *kFunfaresUserAgentPrefix = [NSString stringWithFormat:@"%s%s%s %s%s","Appc","eler","ator","Tita","nium"];
+    return [NSString stringWithFormat:@"%@/%s (%@)",kFunfaresUserAgentPrefix,TI_VERSION_STR,currentDeviceInfo];
 }
 
 - (NSString*)userAgent
@@ -1406,7 +1408,7 @@ performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem
             errorString = [error localizedDescription];
         } else {
             // If we have no data...
-            // This should never happen on a Titanium app using the node.js CLI
+            // This should never happen on a Funfares app using the node.js CLI
             errorString = @"File not found";
         }
         if(errorString != nil) {
